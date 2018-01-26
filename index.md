@@ -1,9 +1,9 @@
 ---
 title: Essential Components of Web Accessibility
-permalink: /standards/web-accessibility-components/
+permalink: /standards/components/
 redirect_from: /
 layout: default
 ---
 
 <h2>test</h2>
-<p>worky</p>
+<p>worky?!?</p>
