@@ -6,6 +6,18 @@ layout: default
 ---
 
 {::nomarkdown}
+{% include box.html type="start" h="2" title="Summary" class="full" %}
+{:/}
+
+This page shows how web accessibility depends on several components working together, and how improvements in specific components could substantially improve web accessibility.
+
+It provides the foundation for understanding the different accessibility standards develop by the <abbr title="World Wide Web Consortium">W3C</abbr> Web Accessibility Initiative (WAI).
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
 {% include_cached toc.html type="start" title="Page Contents" class="simple" %}
 {:/}
 
@@ -18,8 +30,6 @@ layout: default
 {% include_cached toc.html type="end" %}
 {:/}
 
-<p>This page shows how web accessibility depends on several components working together, and how improvements in specific components could substantially improve web accessibility.</p>
-<p>It provides the foundation for understanding the different accessibility standards develop by the <abbr title="World Wide Web Consortium">W3C</abbr> Web Accessibility Initiative (WAI). W3C's web standards are called <em>W3C Recommendations</em>. WAI's <em><strong>accessibility guidelines</strong></em> that are W3C Recommendations are international web standards.</p>
 
 Introduction {#intro}
 ----------------------
@@ -152,10 +162,8 @@ different components:
 <p>These accessibility guidelines are based on the fundamental technical specifications of the Web, and are developed in coordination with all <a href="https://www.w3.org/TR/">W3C technical specifications</a> (HTML, XML, CSS, SVG, SMIL, etc.). W3C also develops technical specifications that directly address accessibility, including:</p>
 <ul>
   <li><a href="https://w3c.github.io/wai-website/standards/aria/">ARIA, the Accessible Rich Internet Applications</a> Suite, which defines a way to make web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.</li>
-  <li><a href="https://www.w3.org/TR/ttml1/">Timed Text Markup Language</a></li>
-  <li><a href="https://www.w3.org/TR/webvtt1/">WebVTT: The Web Video Text Tracks Format</a></li>
-  <li>@@...</li>
 </ul>
 
 ![illustration showing the guidelines for the different components, detailed description at http://www.w3.org/WAI/intro/components-desc.html#guide](images/specs.png)
 
+For more information, see [W3C Accessibility Standards Overview](https://w3c.github.io/wai-std-gl-overview/standards-guidelines/)
