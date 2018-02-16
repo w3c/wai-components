@@ -57,7 +57,7 @@ people with disabilities. These components include:
 How the Components Relate {#relate}
 ------------------------------------
 
-![illustration showing how components relate, detailed description at http://www.w3.org/WAI/intro/components-desc.html#relate](images/relate.png)
+![illustration showing how components relate, detailed description at http://www.w3.org/WAI/intro/components-desc.html#relate](/content-images/wai-components/relate.png)
 
 Web **developers** usually use **authoring tools** and evaluation tools
 to create Web **content**.
@@ -96,7 +96,7 @@ For example, for alternative text on images:
 When accessibility features are effectively implemented in one
 component, the other components are more likely to implement them.
 
-![illustration of implementation cycle, detailed description at http://www.w3.org/WAI/intro/components-desc.html#cycle](images/cycle.png)
+![illustration of implementation cycle, detailed description at http://www.w3.org/WAI/intro/components-desc.html#cycle](/content-images/wai-components/cycle.png)
 
 -   When **Web browsers, media players, assistive technologies, and
     other user agents** support an accessibility feature, users are more
@@ -121,7 +121,7 @@ authoring tools do not support and that most browsers or assistive
 technologies do not implement consistently.
 
 ![illustration of what happens when one component is weak, detailed
-description at http://www.w3.org/WAI/intro/components-desc.html#weak](images/bridge.png)
+description at http://www.w3.org/WAI/intro/components-desc.html#weak](/content-images/wai-components/bridge.png)
 
 If one component has poor accessibility support, sometimes other
 components can compensate through "work-arounds" that require much more
@@ -146,8 +146,8 @@ feature.
 Guidelines and Other Standards {#guidelines}
 --------------------------------------------------
 
-The World Wide Web Consortium ([W3C](/)) Web Accessibility Initiative
-([WAI](/WAI/)) develops **Web accessibility standards** for the
+The World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative
+([WAI](https://www.w3.org/WAI/)) develops **Web accessibility standards** for the
 different components:
 
 -   [Authoring Tool Accessibility Guidelines (**ATAG**)](atag.php)
@@ -164,6 +164,6 @@ different components:
   <li><a href="https://w3c.github.io/wai-website/standards/aria/">ARIA, the Accessible Rich Internet Applications</a> Suite, which defines a way to make web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.</li>
 </ul>
 
-![illustration showing the guidelines for the different components, detailed description at http://www.w3.org/WAI/intro/components-desc.html#guide](images/specs.png)
+![illustration showing the guidelines for the different components, detailed description at http://www.w3.org/WAI/intro/components-desc.html#guide](/content-images/wai-components/specs.png)
 
 For more information, see [W3C Accessibility Standards Overview](https://w3c.github.io/wai-std-gl-overview/standards-guidelines/)
