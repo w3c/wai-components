@@ -57,7 +57,7 @@ people with disabilities. These components include:
 How the Components Relate {#relate}
 ------------------------------------
 
-![illustration showing how components relate, detailed description at http://www.w3.org/WAI/intro/components-desc.html#relate]({{ "/content-images/wai-components/relate.png" | relative_url }})
+![illustration showing how components relate, detailed description at http://www.w3.org/WAI/intro/components-desc.html#relate]({{ "/content-images/wai-components/relate.png" | prepend: site.github.url }})
 
 Web **developers** usually use **authoring tools** and evaluation tools
 to create Web **content**.
@@ -96,7 +96,7 @@ For example, for alternative text on images:
 When accessibility features are effectively implemented in one
 component, the other components are more likely to implement them.
 
-![illustration of implementation cycle, detailed description at http://www.w3.org/WAI/intro/components-desc.html#cycle]({{ "/content-images/wai-components/cycle.png" | relative_url }})
+![illustration of implementation cycle, detailed description at http://www.w3.org/WAI/intro/components-desc.html#cycle]({{ "/content-images/wai-components/cycle.png" | prepend: site.github.url }})
 
 -   When **Web browsers, media players, assistive technologies, and
     other user agents** support an accessibility feature, users are more
@@ -121,7 +121,7 @@ authoring tools do not support and that most browsers or assistive
 technologies do not implement consistently.
 
 ![illustration of what happens when one component is weak, detailed
-description at http://www.w3.org/WAI/intro/components-desc.html#weak]({{ "/content-images/wai-components/bridge.png" | relative_url }})
+description at http://www.w3.org/WAI/intro/components-desc.html#weak]({{ "/content-images/wai-components/bridge.png" | prepend: site.github.url }})
 
 If one component has poor accessibility support, sometimes other
 components can compensate through "work-arounds" that require much more
@@ -164,6 +164,6 @@ different components:
   <li><a href="https://w3c.github.io/wai-website/standards/aria/">ARIA, the Accessible Rich Internet Applications</a> Suite, which defines a way to make web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.</li>
 </ul>
 
-![illustration showing the guidelines for the different components, detailed description at http://www.w3.org/WAI/intro/components-desc.html#guide]({{ "/content-images/wai-components/specs.png" | relative_url }})
+![illustration showing the guidelines for the different components, detailed description at http://www.w3.org/WAI/intro/components-desc.html#guide]({{ "/content-images/wai-components/specs.png" | prepend: site.github.url }})
 
 For more information, see [W3C Accessibility Standards Overview](https://w3c.github.io/wai-std-gl-overview/standards-guidelines/)
