@@ -1,2 +1,4 @@
 # wai-components
-FKA Essential Components of Web Accessibility
+Essential Components of Web Accessibility
+
+Preview: https://w3c.github.io/wai-components/standards/components/
