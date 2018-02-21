@@ -10,7 +10,7 @@ layout: default
 
 This page shows how web accessibility depends on several components working together, and how improvements in specific components could substantially improve web accessibility.
 
-It provides the foundation for understanding the different accessibility standards develop by the <abbr title="World Wide Web Consortium">W3C</abbr> Web Accessibility Initiative (WAI).
+It provides the foundation for understanding the different accessibility standards developed by the <abbr title="World Wide Web Consortium">W3C</abbr> Web Accessibility Initiative (WAI).
 
 {::nomarkdown}
 {% include box.html type="end" %}
