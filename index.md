@@ -73,8 +73,8 @@ For example, for alternative text on images:
 -   **Technical specifications** address alternative text (for example,
     HTML defines the alternative text attribute (alt) of the image
     element (img))
--   **WAI guidelines** - WCAG, ATAG, and UAAG, [described
-    below](#guidelines) - define how to implement alternative text for
+-   **WAI guidelines** ([WCAG, ATAG, UAAG described
+    below](#guidelines)) - define how to implement alternative text for
     accessibility in the different components
 -   **Developers** provide the appropriate alternative text wording
 -   **Authoring tools** enable, facilitate, and promote providing
