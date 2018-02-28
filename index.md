@@ -2,6 +2,19 @@
 title: Essential Components of Web Accessibility
 permalink: /standards/components/
 layout: default
+footer: >
+  <p>
+    <strong>Permission to use:</strong> 
+    You may use the images on this page for accessibility education and outreach if you: 
+    1. Include the URI <strong><span class="changed">w3.org/WAI/intro/components.php</span> <em>prominently</em></strong> near the image, and 
+    2. Include the artist credit, editor, and copyright reference in any published or posted material:<br>
+    <cite>Image by Michael Duffy, from: Essential Components of Web  Accessibility. S.L. Henry, ed. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/intro/components.php</cite><br>
+    For more information, see <a href="https://www.w3.org/WAI/about/usingWAImaterial.html">Using WAI Materials</a>.
+  </p>
+  <p>
+    <strong>Status:</strong> Content updated August 2005 [<a href="/WAI/EO/changelogs/cl-components">changelog</a>] Permission note added May 2016<br>
+    Editor: Shawn Lawton Henry. Graphic artist: Michael Duffy. This information was developed with the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).
+  </p>
 ---
 
 {::nomarkdown}
