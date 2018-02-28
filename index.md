@@ -33,11 +33,11 @@ It provides the foundation for understanding the different accessibility standar
 ## Introduction {#intro}
 {:.no_toc}
 
-It is essential that several different components of Web development and
-interaction work together in order for the Web to be accessible to
+It is essential that several different components of web development and
+interaction work together in order for the web to be accessible to
 people with disabilities. These components include:
 
--   **content** - the information in a Web page or Web application,
+-   **content** - the information in a web page or web application,
     including:
     -   natural information such as text, images, and sounds
     -   code or markup that defines structure, presentation, etc.
@@ -45,11 +45,11 @@ people with disabilities. These components include:
 -   **assistive technology**, in some cases - screen readers,
     alternative keyboards, switches, scanning software, etc.
 -   **users**' knowledge, experiences, and in some cases, adaptive
-    strategies using the Web
+    strategies using the web
 -   **developers** - designers, coders, authors, etc., including
     developers with disabilities and users who contribute content
--   **authoring tools** - software that creates Web sites
--   **evaluation tools** - Web accessibility evaluation tools, HTML
+-   **authoring tools** - software that creates websites
+-   **evaluation tools** - web accessibility evaluation tools, HTML
     validators, CSS validators, etc.
 
 ## How the Components Relate {#relate}
@@ -58,16 +58,16 @@ people with disabilities. These components include:
 ![illustration showing how components relate, detailed description at {{ example_url }}]({{ "/content-images/wai-components/relate.png" | prepend: site.github.url }}){:longdesc="{{example_url}}"}
 
 Web **developers** usually use **authoring tools** and evaluation tools
-to create Web **content**.
+to create web **content**.
 
-**People** ("**users**") use Web **browsers, media players, assistive
+**People** ("**users**") use web **browsers, media players, assistive
 technologies,** or other "**user agents**" to get and interact with the
 **content**.
 
 ## Interdependencies Between Components {#depend}
 
 There are significant interdependencies between the components; that is,
-the components must work together in order for the Web to be accessible.
+the components must work together in order for the web to be accessible.
 For example, for alternative text on images:
 
 -   **technical specifications** address alternative text (for example,
@@ -78,7 +78,7 @@ For example, for alternative text on images:
     accessibility in the different components
 -   **developers** provide the appropriate alternative text wording
 -   **authoring tools** enable, facilitate, and promote providing
-    alternative text in a Web page
+    alternative text in a web page
 -   **evaluation tools** are used to help check that alternative text
     exists
 -   **user agents** provide human and machine interface to the
@@ -96,7 +96,7 @@ component, the other components are more likely to implement them.
 {% assign example_url = "/standards/components/examples/#cycle" | prepend: site.github.url %}
 ![illustration of implementation cycle, detailed description at {{ example_url }}]({{ "/content-images/wai-components/cycle.png" | prepend: site.github.url }}){:longdesc="{{example_url}}"}
 
--   When **Web browsers, media players, assistive technologies, and
+-   When **web browsers, media players, assistive technologies, and
     other user agents** support an accessibility feature, users are more
     likely to demand it and developers are more likely to implement it
     in their **content**.
@@ -139,23 +139,23 @@ However, in most cases the works-arounds are not implemented and the
 result is still poor accessibility. Additionally, sometimes poor
 accessibility support in one component cannot be reasonably overcome by
 other components and the result is inaccessibility, making it impossible
-for some people with disabilities to use a particular Web site, page, or
+for some people with disabilities to use a particular website, page, or
 feature.
 
 ## Guidelines and Other Standards {#guidelines}
 
-The World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) develops **Web accessibility standards** for the different components:
+The World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) develops **web accessibility standards** for the different components:
 
 -   [Authoring Tool Accessibility Guidelines (**ATAG**)](atag.php)
     addresses authoring tools
 -   [Web Content Accessibility Guidelines (**WCAG**)](wcag.php)
-    addresses Web content, and is used by developers, authoring tools,
+    addresses web content, and is used by developers, authoring tools,
     and accessibility evaluation tools
 -   [User Agent Accessibility Guidelines (**UAAG**)](uaag.php) addresses
-    Web browsers and media players, including some aspects of assistive
+    web browsers and media players, including some aspects of assistive
     technologies
 
-<p>These accessibility guidelines are based on the fundamental technical specifications of the Web, and are developed in coordination with all <a href="https://www.w3.org/TR/">W3C technical specifications</a> (HTML, XML, CSS, SVG, SMIL, etc.). W3C also develops technical specifications that directly address accessibility, including:</p>
+<p>These accessibility guidelines are based on the fundamental technical specifications of the web, and are developed in coordination with all <a href="https://www.w3.org/TR/">W3C technical specifications</a> (HTML, XML, CSS, SVG, SMIL, etc.). W3C also develops technical specifications that directly address accessibility, including:</p>
 <ul>
   <li><a href="https://w3c.github.io/wai-website/standards/aria/">ARIA, the Accessible Rich Internet Applications</a> Suite, which defines a way to make web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.</li>
 </ul>
