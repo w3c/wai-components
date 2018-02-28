@@ -41,7 +41,7 @@ people with disabilities. These components include:
     including:
     -   natural information such as text, images, and sounds
     -   code or markup that defines structure, presentation, etc.
--   **Web browsers, media players**, and other "user agents"
+-   **web browsers, media players**, and other "user agents"
 -   **assistive technology**, in some cases - screen readers,
     alternative keyboards, switches, scanning software, etc.
 -   **users**' knowledge, experiences, and in some cases, adaptive
@@ -70,22 +70,22 @@ There are significant interdependencies between the components; that is,
 the components must work together in order for the Web to be accessible.
 For example, for alternative text on images:
 
--   **Technical specifications** address alternative text (for example,
+-   **technical specifications** address alternative text (for example,
     HTML defines the alternative text attribute (alt) of the image
     element (img))
 -   **WAI guidelines** ([WCAG, ATAG, UAAG described
     below](#guidelines)) - define how to implement alternative text for
     accessibility in the different components
--   **Developers** provide the appropriate alternative text wording
--   **Authoring tools** enable, facilitate, and promote providing
+-   **developers** provide the appropriate alternative text wording
+-   **authoring tools** enable, facilitate, and promote providing
     alternative text in a Web page
--   **Evaluation tools** are used to help check that alternative text
+-   **evaluation tools** are used to help check that alternative text
     exists
--   **User agents** provide human and machine interface to the
+-   **user agents** provide human and machine interface to the
     alternative text
--   **Assistive technologies** provide human interface to the
+-   **assistive technologies** provide human interface to the
     alternative text in various modalities
--   **Users** know how to get the alternative text from their user agent
+-   **users** know how to get the alternative text from their user agent
     and/or assistive technology as needed
 
 ### The Implementation Cycle
