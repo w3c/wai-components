@@ -1,6 +1,6 @@
 ---
 title: Essential Components of Web Accessibility
-permalink: /standards/components/
+permalink: /fundamentals/components/
 layout: default
 footer: >
   <p>
