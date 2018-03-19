@@ -1,6 +1,8 @@
 ---
 title: Essential Components of Web Accessibility
 permalink: /fundamentals/components/
+github:
+  repository: w3c/wai-components
 layout: default
 footer: >
   <p>
