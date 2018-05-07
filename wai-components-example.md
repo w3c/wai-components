@@ -1,8 +1,7 @@
 ---
 title: Descriptions of Essential Components of Web Accessibility Illustrations
-permalink: /standards/components/examples/
+permalink: /fundamentals/components/examples/
 layout: default
-date: 2005-07-19
 ---
 
 {::nomarkdown}
