@@ -86,8 +86,8 @@ the components must work together in order for the web to be accessible.
 For example, for alternative text on images:
 
 -   **technical specifications** address alternative text (for example,
-    HTML defines the alternative text attribute (alt) of the image
-    element (img))
+    HTML defines the alternative text attribute (`alt`) of the image
+    element (`img`))
 -   **WAI guidelines** ([WCAG, ATAG, UAAG described
     below](#guidelines)) - define how to implement alternative text for
     accessibility in the different components
@@ -161,12 +161,12 @@ feature.
 
 The World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) develops **web accessibility standards** for the different components:
 
--   [Authoring Tool Accessibility Guidelines (**ATAG**)](atag.php)
+-   [Authoring Tool Accessibility Guidelines (**ATAG**)]({{ "/standards-guidelines/atag/" | relative_url }})
     addresses authoring tools
--   [Web Content Accessibility Guidelines (**WCAG**)](wcag.php)
+-   [Web Content Accessibility Guidelines (**WCAG**)]({{ "/standards-guidelines/wcag/" | relative_url }})
     addresses web content, and is used by developers, authoring tools,
     and accessibility evaluation tools
--   [User Agent Accessibility Guidelines (**UAAG**)](uaag.php) addresses
+-   [User Agent Accessibility Guidelines (**UAAG**)]({{ "/standards-guidelines/uaag/" | relative_url }}) addresses
     web browsers and media players, including some aspects of assistive
     technologies
 
