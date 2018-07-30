@@ -24,7 +24,7 @@ Slides](http://www.w3.org/WAI/intro/components-slides).
 
 ## How the Components Relate Illustration Description {#relate}
 
-![Illustration showing How Components Relate]({{ "/content-images/wai-components/relate.png" | prepend: site.github.url }})
+![Illustration showing How Components Relate]({{ "/content-images/wai-components/relate.png" | relative_url }})
 
 Illustration with labeled graphics of boxes, content, and people. at the
 top center is a pie chart, an image, a form, and text, labeled
@@ -36,7 +36,7 @@ the top.
 
 ## The Implementation Cycle Illustration Description {#cycle}
 
-![Illustration showing the Implementation Cycle]({{ "/content-images/wai-components/cycle.png" | prepend: site.github.url }})
+![Illustration showing the Implementation Cycle]({{ "/content-images/wai-components/cycle.png" | relative_url }})
 
 Illustration with arrow going from content at the top through authoring
 tools at left to content at the bottom, and an arrow going from the
@@ -46,7 +46,7 @@ the right and back to content at the top
 ## When One Component is Weak Illustration Description {#weak}
 
 ![Illustration showing what happens when one component is
-weak]({{ "/content-images/wai-components/bridge.png" | prepend: site.github.url }})
+weak]({{ "/content-images/wai-components/bridge.png" | relative_url }})
 
 Illustration with labeled graphics of boxes, content, and people. at the
 top center is a pie chart, an image, a form, and text, labeled
@@ -59,7 +59,7 @@ technologies”.
 ## Guidelines for Different Components Illustration Description {#guide}
 
 ![Illustration showing the different guidelines for the different
-components]({{ "/content-images/wai-components/specs.png" | prepend: site.github.url }})
+components]({{ "/content-images/wai-components/specs.png" | relative_url }})
 
 Illustration with labeled graphics of boxes, content, and people. at the
 top center is a pie chart, an image, a form, and text, labeled
@@ -77,7 +77,7 @@ arrow pointing up to the accessibility guidelines.
 ## Components and Guidelines Illustration Description {#rel-guide}
 
 ![Illustration showing How Components
-Relate]({{ "/content-images/wai-components/relate.png" | prepend: site.github.url }})
+Relate]({{ "/content-images/wai-components/relate.png" | relative_url }})
 
 Illustration with labeled graphics of boxes, content, and people. at the
 top center is a pie chart, an image, a form, and text, labeled “content” - underneath is WCA". coming up from the bottom left, a line connects
@@ -90,7 +90,7 @@ media players” - underneath is UAAG - and “assistive technologies” to
 ## Interdependencies Between Components, Example Illustration Description {#example-alt}
 
 ![Illustration showing examples of how components
-relate.]({{ "/content-images/wai-components/relate-example.jpg" | prepend: site.github.url }})
+relate.]({{ "/content-images/wai-components/relate-example.jpg" | relative_url }})
 
 Illustration with labeled graphics of boxes, content, and people. at the
 top center "content" and underneath it is a logo and a box with:

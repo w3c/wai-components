@@ -16,7 +16,6 @@ footer: >
   <p><strong>Date: </strong>Updated 27 February 2018. <!--[<a href="https://www.w3.org/WAI/EO/changelogs/cl-components">changelog</a>]--></p>
   <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Graphic artist: Michael Duffy.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
 ---
 
 {::nomarkdown}
@@ -133,7 +132,7 @@ developers are unlikely to implement an accessibility feature that
 authoring tools do not support and that most browsers or assistive
 technologies do not implement consistently.
 
-{% assign example_url = "/fundamentals/components/examples/#bridge" | relative_url %}
+{% assign example_url = "/fundamentals/components/examples/#weak" | relative_url %}
 ![illustration of what happens when one component is weak, detailed
 description at {{ example_url }}]({{ "/content-images/wai-components/bridge.png" | relative_url }}){:longdesc="{{example_url}}"}
 
