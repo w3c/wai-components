@@ -4,6 +4,7 @@ permalink: /fundamentals/components/
 github:
   repository: w3c/wai-components
 layout: default
+feedbackmail: wai@w3.org
 footer: >
   <p>
     <strong>Permission to use:</strong> 
