@@ -71,7 +71,7 @@ the top. below these are “accessibility guidelines” which include “ATAG”
 with an arrow pointing to “authoring tools” and “evaluation tools”,
 “WCAG” pointing to “content”, and “UAAG” pointing to “browsers, media
 players” and “assistive technologies”. at the very bottom, “technical
-specifications (HTML, XML, CSS, SVG, SMIL, etc.)” forms a base with an
+specifications (HTML, ARIA, CSS, SVG, SMIL, etc.)” forms a base with an
 arrow pointing up to the accessibility guidelines.
 
 ## Components and Guidelines Illustration Description {#rel-guide}
