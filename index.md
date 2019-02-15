@@ -170,7 +170,7 @@ The World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Ini
     web browsers and media players, including some aspects of assistive
     technologies
 
-<p>These accessibility guidelines are based on the fundamental technical specifications of the web, and are developed in coordination with all <a href="https://www.w3.org/TR/">W3C technical specifications</a> (HTML, XML, CSS, SVG, SMIL, etc.). W3C also develops technical specifications that directly address accessibility, including:</p>
+<p>These accessibility guidelines are based on the fundamental technical specifications of the web, and are developed in coordination with all <a href="https://www.w3.org/TR/">W3C technical specifications</a> (HTML, CSS, SVG, SMIL, etc.). W3C also develops technical specifications that directly address accessibility, including:</p>
 <ul>
   <li><a href="{{ "/standards-guidelines/aria/" | relative_url }}">ARIA, the Accessible Rich Internet Applications</a> Suite, which defines a way to make web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.</li>
 </ul>
