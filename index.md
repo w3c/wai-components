@@ -178,4 +178,4 @@ The World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Ini
 {% assign example_url = "/fundamentals/components/examples/#guide" | relative_url %}
 ![illustration showing the guidelines for the different components, detailed description at {{ example_url }}]({{ "/content-images/wai-components/specs.png" | relative_url }}){:longdesc="{{example_url}}"}
 
-For more information, see [W3C Accessibility Standards Overview]({{ '/standards-guidelines/' | relative_url }})
+For more information, see [W3C Accessibility Standards Overview]({{ '/standards-guidelines/' | relative_url }}).
