@@ -1,6 +1,13 @@
 ---
 title: Descriptions of Essential Components of Web Accessibility Illustrations
 permalink: /fundamentals/components/examples/
+ref: /fundamentals/components/examples/
+parent: /fundamentals/components/
+lang: en
+layout: default
+github:
+  repository: w3c/wai-components
+  path: 'wai-components-example.md'
 layout: default
 ---
 
