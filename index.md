@@ -1,6 +1,9 @@
 ---
 title: Essential Components of Web Accessibility
 permalink: /fundamentals/components/
+rel: /fundamentals/components/
+last_updated: 2018-02-27
+lang: en
 github:
   repository: w3c/wai-components
 layout: default
@@ -8,10 +11,10 @@ feedbackmail: wai@w3.org
 footer: >
   <p>
     <strong>Permission to use:</strong> 
-    You may use the images on this page for accessibility education and outreach if you: 
-    1. Include the URI <strong><span class="changed">w3.org/WAI/intro/components.php</span> <em>prominently</em></strong> near the image, and 
+    You may use the images on this page for accessibility education and outreach if you:<br> 
+    1. Include the URI <strong><span class="changed">w3.org/WAI/fundamentals/components/</span> <em>prominently</em></strong> near the image, and <br>
     2. Include the artist credit, editor, and copyright reference in any published or posted material:<br>
-    <cite>Image by Michael Duffy, from: Essential Components of Web  Accessibility. S.L. Henry, ed. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/intro/components.php</cite><br>
+    <cite>Image by Michael Duffy, from: Essential Components of Web  Accessibility. S.L. Henry, ed. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/fundamentals/components/</cite><br>
     For more information, see <a href="https://www.w3.org/WAI/about/usingWAImaterial.html">Using WAI Materials</a>.
   </p>
   <p><strong>Date: </strong>Updated 27 February 2018. <!--[<a href="https://www.w3.org/WAI/EO/changelogs/cl-components">changelog</a>]--></p>
@@ -85,9 +88,7 @@ There are significant interdependencies between the components; that is,
 the components must work together in order for the web to be accessible.
 For example, for alternative text on images:
 
--   **technical specifications** address alternative text (for example,
-    HTML defines the alternative text attribute (`alt`) of the image
-    element (`img`))
+-   **technical specifications** address alternative text (for example, HTML defines the alternative text attribute (`alt`) of the image element (`img`))
 -   **WAI guidelines** ([WCAG, ATAG, UAAG described
     below](#guidelines)) - define how to implement alternative text for
     accessibility in the different components
@@ -159,23 +160,18 @@ feature.
 
 ## Guidelines and Other Standards {#guidelines}
 
-The World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) develops **web accessibility standards** for the different components:
+The World Wide Web Consortium ([W3C {% include_cached different.html %}](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) develops **web accessibility standards** for the different components:
 
--   [Authoring Tool Accessibility Guidelines (**ATAG**)]({{ "/standards-guidelines/atag/" | relative_url }})
-    addresses authoring tools
--   [Web Content Accessibility Guidelines (**WCAG**)]({{ "/standards-guidelines/wcag/" | relative_url }})
-    addresses web content, and is used by developers, authoring tools,
-    and accessibility evaluation tools
--   [User Agent Accessibility Guidelines (**UAAG**)]({{ "/standards-guidelines/uaag/" | relative_url }}) addresses
-    web browsers and media players, including some aspects of assistive
-    technologies
+-   [[Authoring Tool Accessibility Guidelines (ATAG)]](/standards-guidelines/atag/) addresses authoring tools
+-   [[Web Content Accessibility Guidelines (WCAG)]](/standards-guidelines/wcag/) addresses web content, and is used by developers, authoring tools, and accessibility evaluation tools
+-   [[User Agent Accessibility Guidelines (UAAG)]](/standards-guidelines/uaag/) addresses web browsers and media players, including some aspects of assistive technologies
 
-<p>These accessibility guidelines are based on the fundamental technical specifications of the web, and are developed in coordination with all <a href="https://www.w3.org/TR/">W3C technical specifications</a> (HTML, CSS, SVG, SMIL, etc.). W3C also develops technical specifications that directly address accessibility, including:</p>
-<ul>
-  <li><a href="{{ "/standards-guidelines/aria/" | relative_url }}">ARIA, the Accessible Rich Internet Applications</a> Suite, which defines a way to make web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.</li>
-</ul>
+
+These accessibility guidelines are based on the fundamental technical specifications of the web, and are developed in coordination with all <a href="https://www.w3.org/TR/">W3C technical specifications {% include_cached different.html %}</a> (HTML, CSS, SVG, SMIL, etc.). W3C also develops technical specifications that directly address accessibility, including:
+
+* [ARIA, the Accessible Rich Internet Applications](/standards-guidelines/aria/) Suite, which defines a way to make web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.
 
 {% assign example_url = "/fundamentals/components/examples/#guide" | relative_url %}
 ![illustration showing the guidelines for the different components, detailed description at {{ example_url }}]({{ "/content-images/wai-components/specs.png" | relative_url }}){:longdesc="{{example_url}}"}
 
-For more information, see [W3C Accessibility Standards Overview]({{ '/standards-guidelines/' | relative_url }}).
+For more information, see [[W3C Accessibility Standards Overview]](/standards-guidelines/).
