@@ -51,112 +51,66 @@ It provides the foundation for understanding the different accessibility standar
 ## Introduction {#intro}
 {:.no_toc}
 
-It is essential that several different components of web development and
-interaction work together in order for the web to be accessible to
-people with disabilities. These components include:
+It is essential that several different components of web development and interaction work together in order for the web to be accessible to people with disabilities. These components include:
 
--   **content** - the information in a web page or web application,
-    including:
+-   **content** - the information in a web page or web application, including:
     -   natural information such as text, images, and sounds
     -   code or markup that defines structure, presentation, etc.
 -   **web browsers, media players**, and other "user agents"
--   **assistive technology**, in some cases - screen readers,
-    alternative keyboards, switches, scanning software, etc.
--   **users**' knowledge, experiences, and in some cases, adaptive
-    strategies using the web
--   **developers** - designers, coders, authors, etc., including
-    developers with disabilities and users who contribute content
+-   **assistive technology**, in some cases - screen readers, alternative keyboards, switches, scanning software, etc.
+-   **users**' knowledge, experiences, and in some cases, adaptive strategies using the web
+-   **developers** - designers, coders, authors, etc., including developers with disabilities and users who contribute content
 -   **authoring tools** - software that creates websites
--   **evaluation tools** - web accessibility evaluation tools, HTML
-    validators, CSS validators, etc.
+-   **evaluation tools** - web accessibility evaluation tools, HTML validators, CSS validators, etc.
 
 ## How the Components Relate {#relate}
 
 {% assign example_url = "/fundamentals/components/examples/#relate" | relative_url %}
 ![illustration showing how components relate, detailed description at {{ example_url }}]({{ "/content-images/wai-components/relate.png" | relative_url }}){:longdesc="{{example_url}}"}
 
-Web **developers** usually use **authoring tools** and evaluation tools
-to create web **content**.
+Web **developers** usually use **authoring tools** and evaluation tools to create web **content**.
 
-**People** ("**users**") use web **browsers, media players, assistive
-technologies,** or other "**user agents**" to get and interact with the
-**content**.
+**People** ("**users**") use web **browsers, media players, assistive technologies,** or other "**user agents**" to get and interact with the **content**.
 
 ## Interdependencies Between Components {#depend}
 
-There are significant interdependencies between the components; that is,
-the components must work together in order for the web to be accessible.
-For example, for alternative text on images:
+There are significant interdependencies between the components; that is, the components must work together in order for the web to be accessible. For example, for alternative text on images:
 
 -   **technical specifications** address alternative text (for example, HTML defines the alternative text attribute (`alt`) of the image element (`img`))
--   **WAI guidelines** ([WCAG, ATAG, UAAG described
-    below](#guidelines)) - define how to implement alternative text for
-    accessibility in the different components
+-   **WAI guidelines** ([WCAG, ATAG, UAAG described below](#guidelines)) - define how to implement alternative text for accessibility in the different components
 -   **developers** provide the appropriate alternative text wording
--   **authoring tools** enable, facilitate, and promote providing
-    alternative text in a web page
--   **evaluation tools** are used to help check that alternative text
-    exists
--   **user agents** provide human and machine interface to the
-    alternative text
--   **assistive technologies** provide human interface to the
-    alternative text in various modalities
--   **users** know how to get the alternative text from their user agent
-    and/or assistive technology as needed
+-   **authoring tools** enable, facilitate, and promote providing alternative text in a web page
+-   **evaluation tools** are used to help check that alternative text exists
+-   **user agents** provide human and machine interface to the alternative text
+-   **assistive technologies** provide human interface to the alternative text in various modalities
+-   **users** know how to get the alternative text from their user agent and/or assistive technology as needed
 
 ### The Implementation Cycle
 
-When accessibility features are effectively implemented in one
-component, the other components are more likely to implement them.
+When accessibility features are effectively implemented in one component, the other components are more likely to implement them.
 
 {% assign example_url = "/fundamentals/components/examples/#cycle" | relative_url %}
 ![illustration of implementation cycle, detailed description at {{ example_url }}]({{ "/content-images/wai-components/cycle.png" | relative_url }}){:longdesc="{{example_url}}"}
 
--   When **web browsers, media players, assistive technologies, and
-    other user agents** support an accessibility feature, users are more
-    likely to demand it and developers are more likely to implement it
-    in their **content**.
--   When developers want to implement an accessibility feature in their
-    **content**, they are more likely to demand that their **authoring
-    tool** make it easy to implement.
--   When **authoring tools** make a feature easy to implement,
-    developers are more likely to implement it in their **content**.
--   When an accessibility feature is implemented in **most content**,
-    developers and users are more likely to demand that **user agents**
-    support it.
+- When **web browsers, media players, assistive technologies, and other user agents** support an accessibility feature, users are more likely to demand it and developers are more likely to implement it in their **content**. 
+- When developers want to implement an accessibility feature in their **content**, they are more likely to demand that their **authoring tool** make it easy to implement. 
+- When **authoring tools** make a feature easy to implement, developers are more likely to implement it in their **content**. 
+- When an accessibility feature is implemented in **most content**, developers and users are more likely to demand that **user agents** support it.
 
 ### When One Component is Weak
 
-If an accessibility feature is not implemented in one component, there
-is little motivation for the other components to implement it when it
-does not result in an accessible user experience. For example,
-developers are unlikely to implement an accessibility feature that
-authoring tools do not support and that most browsers or assistive
-technologies do not implement consistently.
+If an accessibility feature is not implemented in one component, there is little motivation for the other components to implement it when it does not result in an accessible user experience. For example, developers are unlikely to implement an accessibility feature that authoring tools do not support and that most browsers or assistive technologies do not implement consistently.
 
 {% assign example_url = "/fundamentals/components/examples/#weak" | relative_url %}
 ![illustration of what happens when one component is weak, detailed
 description at {{ example_url }}]({{ "/content-images/wai-components/bridge.png" | relative_url }}){:longdesc="{{example_url}}"}
 
-If one component has poor accessibility support, sometimes other
-components can compensate through "work-arounds" that require much more
-effort and are not good for accessibility overall. For example,
+If one component has poor accessibility support, sometimes other components can compensate through "work-arounds" that require much more effort and are not good for accessibility overall. For example,
 
--   developers can do more work to compensate for some lack of
-    accessibility support in authoring tools; for example, coding markup
-    directly instead of through a tool
--   users can do more work to compensate for some lack of accessibility
-    support in browsers, media players, and assistive technology and
-    lack of accessibility of content; for example, using different
-    browsers or assistive technologies to overcome different
-    accessibility issues
+-   developers can do more work to compensate for some lack of accessibility support in authoring tools; for example, coding markup directly instead of through a tool
+-   users can do more work to compensate for some lack of accessibility support in browsers, media players, and assistive technology and lack of accessibility of content; for example, using different browsers or assistive technologies to overcome different accessibility issues
 
-However, in most cases the works-arounds are not implemented and the
-result is still poor accessibility. Additionally, sometimes poor
-accessibility support in one component cannot be reasonably overcome by
-other components and the result is inaccessibility, making it impossible
-for some people with disabilities to use a particular website, page, or
-feature.
+However, in most cases the works-arounds are not implemented and the result is still poor accessibility. Additionally, sometimes poor accessibility support in one component cannot be reasonably overcome by other components and the result is inaccessibility, making it impossible for some people with disabilities to use a particular website, page, or feature.
 
 ## Guidelines and Other Standards {#guidelines}
 
