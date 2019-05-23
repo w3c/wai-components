@@ -14,7 +14,7 @@ last_updated: 2018-02-27   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "@@"   # Replace @@ with contributor name, or delete this line if none
 # - name: "@@"   # Replace @@ with name, or delete this line if not multiple contributors
 
-rel: /fundamentals/components/   # Do not change this
+ref: /fundamentals/components/   # Do not change this
 layout: default
 github:
   repository: w3c/wai-components
