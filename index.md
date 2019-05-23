@@ -1,28 +1,14 @@
 ---
-# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
-
-title: Essential Components of Web Accessibility   # Do not translate "title:". Do translate the text after "title:".
-nav_title: "Components of Web Accessibility" # A short title that is used in the navigation
-
-lang: en   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-
-last_updated: 2018-02-27   # Put the date of this translation YYYY-MM-DD (with month in the middle)
-# translators: 
-# - name: "@@"   # Replace @@ with translator name
-# - name: "@@"   # Replace @@ with name, or delete this line if not multiple translators
-# contributors:
-# - name: "@@"   # Replace @@ with contributor name, or delete this line if none
-# - name: "@@"   # Replace @@ with name, or delete this line if not multiple contributors
-
-ref: /fundamentals/components/   # Do not change this
-layout: default
+title: Essential Components of Web Accessibility
+permalink: /fundamentals/components/
+rel: /fundamentals/components/
+last_updated: 2018-02-27
+lang: en
 github:
   repository: w3c/wai-components
-  branch: gh-pages
-  path: index.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
-permalink: permalink: /fundamentals/components/   # Add the language shortcode to the end; for example /fundamentals/components/fr
-
-footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
+layout: default
+feedbackmail: wai@w3.org
+footer: >
   <p>
     <strong>Permission to use:</strong> 
     You may use the images on this page for accessibility education and outreach if you:<br> 
@@ -34,10 +20,6 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
   <p><strong>Date: </strong>Updated 27 February 2018. <!--[<a href="https://www.w3.org/WAI/EO/changelogs/cl-components">changelog</a>]--></p>
   <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Graphic artist: Michael Duffy.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
-# Read Important Translations Guidance at https://www.w3.org/WAI/about/translating/#important
-# Read Translations Notes for this resource at https://github.com/w3c/wai-components/blob/master/README.md
-# end of translation instructions
 ---
 
 
