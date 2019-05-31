@@ -17,7 +17,7 @@
    viewBox="0 0 484 404"
    sodipodi:docname="specs.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   inkscape:export-filename="/home/legaller/Bureau/specs.png"
+   inkscape:export-filename="/home/legaller/Bureau/W3C traductions/specs.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <metadata
@@ -28,7 +28,30 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Michael Duffy</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>see https://www.w3.org/WAI/fundamentals/components/</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>W3C</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>fr</dc:language>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>code-elegant@github</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <cc:license
+           rdf:resource="https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231" />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -232,12 +255,12 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="1.8021007"
-     inkscape:cx="68.067422"
-     inkscape:cy="253.10549"
+     inkscape:cx="-70.962119"
+     inkscape:cy="206.49322"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer4"
      showguides="true"
      inkscape:guide-bbox="true" />
   <g
@@ -279,14 +302,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="middle"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <path
-       sodipodi:nodetypes="ccccccc"
-       inkscape:connector-curvature="0"
-       id="path1096"
-       d="m 243.80889,71.133346 -51.21764,33.677654 234,183.90727 c 11.80441,-7.91942 27.15784,-18.40366 38.96225,-26.32308 l -0.006,-11.84412 C 432.00608,223.4396 392.35056,191.19845 358.80889,164.08698 Z"
-       style="opacity:1;vector-effect:none;fill:#727272;fill-opacity:0.40697674;stroke:none;stroke-width:12.05738735;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:1" />
+     style="display:inline">
     <path
        style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:14.53497314;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:1"
        d="m 283.42048,121.93161 v 84.13282 h 98.99805 v -84.13282 z m 16.38672,16.04883 h 66.22461 v 52.03321 H 299.8072 Z"
@@ -347,8 +363,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="frames"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <g
        id="g2126"
        transform="translate(0,-140)">
@@ -548,8 +563,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="persons"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <g
        id="g1294"
        transform="translate(0,2)">
@@ -613,8 +627,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="up"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <g
        style="display:inline"
        id="g2240">
