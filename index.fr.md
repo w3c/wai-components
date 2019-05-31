@@ -6,9 +6,9 @@ nav_title: "Components of Web Accessibility" # A short title that is used in the
 
 lang: en   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 
-last_updated: 2018-02-27   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2018-06-01   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 # translators: 
-# - name: "@@"   # Replace @@ with translator name
+# - name: "@code-elegant"   # Replace @@ with translator name
 # - name: "@@"   # Replace @@ with name, or delete this line if not multiple translators
 # contributors:
 # - name: "@@"   # Replace @@ with contributor name, or delete this line if none
@@ -18,8 +18,8 @@ ref: /fundamentals/components/   # Do not change this
 layout: default
 github:
   repository: w3c/wai-components
-  path: index.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
-permalink: /fundamentals/components/   # Add the language shortcode to the end; for example /fundamentals/components/fr
+  path: index.fr.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
+permalink: /fundamentals/components/fr   # Add the language shortcode to the end; for example /fundamentals/components/fr
 feedbackmail: wai@w3.org
 
 footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
@@ -86,7 +86,7 @@ It is essential that several different components of web development and interac
 ## How the Components Relate {#relate}
 
 {% assign example_url = "/fundamentals/components/examples/#relate" | relative_url %}
-![illustration showing how components relate, detailed description at {{ example_url }}]({{ "/content-images/wai-components/relate.png" | relative_url }}){:longdesc="{{example_url}}"}
+![illustration showing how components relate, detailed description at {{ example_url }}]({{ "/content-images/wai-components/relate.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
 
 Web **developers** usually use **authoring tools** and evaluation tools to create web **content**.
 
@@ -110,7 +110,7 @@ There are significant interdependencies between the components; that is, the com
 When accessibility features are effectively implemented in one component, the other components are more likely to implement them.
 
 {% assign example_url = "/fundamentals/components/examples/#cycle" | relative_url %}
-![illustration of implementation cycle, detailed description at {{ example_url }}]({{ "/content-images/wai-components/cycle.png" | relative_url }}){:longdesc="{{example_url}}"}
+![illustration of implementation cycle, detailed description at {{ example_url }}]({{ "/content-images/wai-components/cycle.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
 
 - When **web browsers, media players, assistive technologies, and other user agents** support an accessibility feature, users are more likely to demand it and developers are more likely to implement it in their **content**. 
 - When developers want to implement an accessibility feature in their **content**, they are more likely to demand that their **authoring tool** make it easy to implement. 
@@ -123,7 +123,7 @@ If an accessibility feature is not implemented in one component, there is little
 
 {% assign example_url = "/fundamentals/components/examples/#weak" | relative_url %}
 ![illustration of what happens when one component is weak, detailed
-description at {{ example_url }}]({{ "/content-images/wai-components/bridge.png" | relative_url }}){:longdesc="{{example_url}}"}
+description at {{ example_url }}]({{ "/content-images/wai-components/bridge.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
 
 If one component has poor accessibility support, sometimes other components can compensate through "work-arounds" that require much more effort and are not good for accessibility overall. For example,
 
@@ -146,6 +146,6 @@ These accessibility guidelines are based on the fundamental technical specificat
 * [ARIA, the Accessible Rich Internet Applications](/standards-guidelines/aria/) Suite, which defines a way to make web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.
 
 {% assign example_url = "/fundamentals/components/examples/#guide" | relative_url %}
-![illustration showing the guidelines for the different components, detailed description at {{ example_url }}]({{ "/content-images/wai-components/specs.png" | relative_url }}){:longdesc="{{example_url}}"}
+![illustration showing the guidelines for the different components, detailed description at {{ example_url }}]({{ "/content-images/wai-components/specs.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
 
 For more information, see [[W3C Accessibility Standards Overview]](/standards-guidelines/).
