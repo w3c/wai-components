@@ -30,7 +30,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
     1. Include the URI <strong><span class="changed">w3.org/WAI/fundamentals/components/</span> <em>prominently</em></strong> near the image, and <br>
     2. Include the artist credit, editor, and copyright reference in any published or posted material:<br>
     <cite>Image by Michael Duffy, from: Essential Components of Web  Accessibility. S.L. Henry, ed. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/fundamentals/components/</cite><br>
-Pour plus d’informations, voir <a href="https://www.w3.org/WAI/about/usingWAImaterial.html">Using WAI Materials (en anglais)</a>.
+    For more information, see <a href="https://www.w3.org/WAI/about/usingWAImaterial.html">Using WAI Materials</a>.
   </p>
   <p><strong>Date&nbsp;: </strong>Mis à jour le 27 February 2018. <!-- [<a href="@@">Changelog</a>] --> </p>
   <p><strong>Éditeur&nbsp;:</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
