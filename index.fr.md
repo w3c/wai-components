@@ -141,7 +141,7 @@ L’Initiative pour l’Accessibilité du Web (Web Accessibility Initiative ([WA
  
 Ces règles d’accessibilité reposent sur le socle des spécifications techniques fondamentales du Web, et sont développées en coordination avec toutes les <a href="https://www.w3.org/TR/">spécifications techniques du W3C {% include_cached different.html %}</a> (HTML, CSS, SVG, SMIL, etc.). Le W3C développe aussi des spécifications techniques qui traitent directement d’accessibilité, y compris :
  
-* la suite des spécifications [ARIA, Les applications Internet riches accessibles / The Accessible Rich Internet Applications](/standards-guidelines/aria/), qui définit une façon de de créer des applications web plus accessibles aux personnes handicapées. Elle aide notamment au développement de contenu dynamique et de contrôles d’interface utilisateur avancés avec Ajax, HTML, JavaScript et les technologies associées.
+* la suite des spécifications [ARIA, Les applications Internet riches accessibles / The Accessible Rich Internet Applications](/standards-guidelines/aria/), qui définit une façon de de créer des applications web plus accessibles aux personnes handicapées. Elle facilite notamment le développement de contenu dynamique et de contrôles d’interface utilisateur avancés avec Ajax, HTML, JavaScript et les technologies associées.
  
 {% assign example_url = "/fundamentals/components/examples/#guide" | relative_url %}
 ![illustration montrant les règles pour les différents éléments, description détaillée disponible à {{ example_url }}]({{ "/content-images/wai-components/specs.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
