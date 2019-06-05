@@ -65,9 +65,15 @@ Relate]({{ "/content-images/wai-components/relate.png" | relative_url }})
 
 Illustration with labeled graphics of boxes, content, and people. at the top center is a pie chart, an image, a form, and text, labeled “content” - underneath is WCA". coming up from the bottom left, a line connects “developers” through “authoring tools” - underneath is ATAG - and “evaluation tools” - underneath is EARL - to “content” at the top. coming up from the bottom right, a line connects “users” to “browsers, media players” - underneath is UAAG - and “assistive technologies” to “content” at the top. In the middle, bottom is WAI-ARIA.
 
+{% comment %}
+
+@@ commenting out - image was used in presentation that is not on new site - leaving here in case we want to resurrect it in the future. @@
+
 ## Interdependencies Between Components, Example Illustration Description {#example-alt}
 
 ![Illustration showing examples of how components
 relate.]({{ "/content-images/wai-components/relate-example.jpg" | relative_url }})
 
 Illustration with labeled graphics of boxes, content, and people. at the top center "content" and underneath it is a logo and a box with: `<img src="WAI-logo.png" alt="Web Accessibility Initiative logo">`. coming up from the bottom left, a line connects “developers” through “authoring tools” and “evaluation tools” to “content” at the top. between the “developer” and “authoring tools” is a dialog box titled: Image Tag Accessibility Attributes, a field titled: Alternative Text filled in with: Web Accessibility Initiative logo. coming up from the bottom right, a line connects “users” to “browsers, media players” and “assistive technologies” to “content” at the top. just up from the “user” is a speech bubble saying: Web Accessibility Initiative logo and a yellow box with: Web Accessibility Initiative logo. at the bottom is: `1.1 Provide a text equivalent for every non-text element` 
+
+{% endcomment %}
