@@ -80,7 +80,7 @@ Il est essentiel que des éléments distincts et multiples du développement web
 -   les connaissances, l’expérience et dans certains cas les stratégies d’adaptation **des utilisateurs** pour l’utilisation du Web&nbsp;;
 -   **des développeurs** - concepteurs, graphistes, codeurs, auteurs… y compris des développeurs handicapés et des utilisateurs qui contribuent&nbsp;;
 -   **des outils de création** - logiciels de création de sites web&nbsp;;
--   **des outils d’évaluation** - outils d’évaluation de l’accessibiité web, validateurs HTML ou CSS…
+-   **des outils d’évaluation** - outils d’évaluation de l’accessibilité web, validateurs HTML ou CSS…
  
 ## Comment les éléments s’articulent {#relate}
  
