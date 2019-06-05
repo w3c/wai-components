@@ -1,6 +1,5 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
-# IN-PROGRESS
 
 title: Éléments essentiels de l'accessibilité du Web # Do not translate "title:". Do translate the text after "title:".
 nav_title: "Éléments de l'accessibilité du Web" # A short title that is used in the navigation
@@ -125,7 +124,7 @@ Si une fonctionnalité d’accessibilité n’est pas mise en œuvre dans un él
  
 Si un composant a une mise en œuvre de l’accessibilité amoindrie, d’autres éléments peuvent parfois compenser cela au travers de «&nbsp;contournements&nbsp;» qui nécessitent beaucoup plus d’effort et ne sont pas positifs pour l’accessibilité en général. Par exemple&nbsp;:
  
--   les développeurs ont plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité dans les outils de création&nbsp;; par exemple en codant directement du balisage que grâce à un outil&nbsp;;
+-   les développeurs ont plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité dans les outils de création&nbsp;; par exemple en codant directement du balisage plutôt que grâce à un outil&nbsp;;
 -   les utilisateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité dans les navigateurs, les lecteurs de média, et la technologie d’assistance et le manque d’accessibilité du contenu&nbsp;; par exemple en utilisant différents navigateurs ou technologies d’assistance pour surmonter différents problèmes.
  
 Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre et le résultat reste décevant en termes d’accessibilité. De plus un support défaillant de l’accessibilité dans un élément ne peut parfois pas être raisonnablement compensé par les autres éléments et le résultat en est l’inaccessibilité, rendant impossible pour certaines personnes handicapées l’utilisation d’un site, une page ou une fonctionnalité précis.
@@ -134,8 +133,8 @@ Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre e
  
 L’Initiative pour l’Accessibilité du Web (Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) du World Wide Web Consortium ([W3C {% include_cached different.html %}](https://www.w3.org/)) développe des **standards d’accessibilité du web** pour différents éléments&nbsp;:
  
--   [[les règles pour l'accessibilité des outils d'édition / Authoring Tool Accessibility Guidelines (ATAG)]](/standards-guidelines/atag/) traite des outils de création ;
--   [[les règles pour l'accessibilité des contenus Web / Web Content Accessibility Guidelines (WCAG)]](/standards-guidelines/wcag/) traite du contenu web, et est utilisé par les développeurs, outils de création et outils d’évaluation de l’accessibilité ;
+-   [[les règles pour l'accessibilité des outils d'édition / Authoring Tool Accessibility Guidelines (ATAG)]](/standards-guidelines/atag/) traite des outils de création&nbsp;;
+-   [[les règles pour l'accessibilité des contenus Web / Web Content Accessibility Guidelines (WCAG)]](/standards-guidelines/wcag/) traite du contenu web, et est utilisé par les développeurs, outils de création et outils d’évaluation de l’accessibilité&nbsp;;
 -   [[les règles pour l'accessibilité des agents utilisateurs / User Agent Accessibility Guidelines (UAAG)]](/standards-guidelines/uaag/) traite des navigateurs et lecteurs de média, y compris certains aspects des technologies d’assistance.
  
  
