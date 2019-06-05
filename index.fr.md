@@ -22,15 +22,13 @@ github:
   path: index.fr.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
 permalink: /fundamentals/components/fr   # Add the language shortcode to the end; for example /fundamentals/components/fr
 feedbackmail: wai@w3.org
- 
-footer: >   # Do not change these dates.
+# Do not change these dates.
+footer: >
   <p>
 	<strong>Autorisation d’exploitation&nbsp;:</strong>
 	Vous pouvez utiliser les images de cette page pour l’éducation à l’accessibilité et son rayonnement si vous:<br>
 	1. Incluez l’URI <strong><span class="changed">w3.org/WAI/fundamentals/components/</span> <em>en évidence</em></strong> à proximité de l’image, et <br>
-	2. Incluez l’attribution à l’artiste, l’éditeur, et la mention de copyright dans tous les travaux publiés ou diffusés&nbsp;:<br>
-	<cite>Image par Michael Duffy, depuis: Essential Components of Web  Accessibility. Éditeur S.L. Henry. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/fundamentals/components/</cite><br>
-	Pour plus d’informations, voir <a href="https://www.w3.org/WAI/about/usingWAImaterial.html">Using WAI Materials (en anglais)</a>.
+	2. Incluez l’attribution à l’artiste, l’éditeur, et la mention de copyright dans tous les travaux publiés ou diffusés&nbsp;:<br><cite>Image par Michael Duffy, depuis: Essential Components of Web  Accessibility. Éditeur S.L. Henry. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/fundamentals/components/</cite><br>Pour plus d’informations, voir <a href="https://www.w3.org/WAI/about/usingWAImaterial.html">Using WAI Materials (en anglais)</a>.
   </p>
   <p><strong>Date&nbsp;: </strong>Mis à jour le 27 February 2018. <!-- [<a href="@@">Changelog</a>] --> </p>
   <p><strong>Éditeur&nbsp;:</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
