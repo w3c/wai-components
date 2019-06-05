@@ -118,17 +118,17 @@ Quand les fonctionnalités d’accessibilité sont réellement mises en œuvre d
  
 ### Quand un élément est insuffisant
  
-Si une fonctionnalité d’accessibilité n’est pas mise en œuvre dans un élément, il y a peu de motivation pour les autres éléments pour l’implémenter si cela ne résulte pas dans une expérience utilisateur accessible. Par exemple les développeurs n’implémenteront pas une fonctionnalité d’accessibilité que les outils de création ne fournissent pas et que la plupart des navigateurs et des technologies d’assistance ne mettent pas en œuvre systématiquement.
+Si une fonctionnalité d’accessibilité n’est pas mise en œuvre dans un élément, il y a peu de motivation pour les autres éléments pour l’implémenter s’il n’en résulte pas une expérience utilisateur accessible. Par exemple les développeurs n’implémenteront pas une fonctionnalité d’accessibilité que les outils de création ne fournissent pas et que la plupart des navigateurs et des technologies d’assistance ne mettent pas en œuvre systématiquement.
  
 {% assign example_url = "/fundamentals/components/examples/#weak" | relative_url %}
 ![illustration ce qui arrive quand un élément est insuffisant, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/bridge.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
  
 Si un composant a une mise en œuvre de l’accessibilité amoindrie, d’autres éléments peuvent parfois compenser cela au travers de «&nbsp;contournements&nbsp;» qui nécessitent beaucoup plus d’effort et ne sont pas positifs pour l’accessibilité en général. Par exemple&nbsp;:
  
--   les développeurs ont plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité dans les outils de création&nbsp;; par exemple en codant directement du balisage au lieu d’au travers un outil&nbsp;;
+-   les développeurs ont plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité dans les outils de création&nbsp;; par exemple en codant directement du balisage que grâce à un outil&nbsp;;
 -   les utilisateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité dans les navigateurs, les lecteurs de média, et la technologie d’assistance et le manque d’accessibilité du contenu&nbsp;; par exemple en utilisant différents navigateurs ou technologies d’assistance pour surmonter différents problèmes.
  
-Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre et le résultat reste décevant en termes d’accessibilité. De plus un support défaillant de l’accessibilité dans un élément ne peut pas être raisonnablement compensé par les autres éléments et le résultat en est l’inaccessibilité, rendant impossible pour certaines personnes handicapées l’utilisation d’un site, une page ou une fonctionnalité précis.
+Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre et le résultat reste décevant en termes d’accessibilité. De plus un support défaillant de l’accessibilité dans un élément ne peut parfois pas être raisonnablement compensé par les autres éléments et le résultat en est l’inaccessibilité, rendant impossible pour certaines personnes handicapées l’utilisation d’un site, une page ou une fonctionnalité précis.
  
 ## Règles et autres standards {#guidelines}
  
