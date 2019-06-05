@@ -15,7 +15,7 @@ last_updated: 2018-02-27   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "@@"   # Replace @@ with name, or delete this line if not multiple contributors
 
 ref: /fundamentals/components/   # Do not change this
-layout: default
+
 github:
   repository: w3c/wai-components
   path: index.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
