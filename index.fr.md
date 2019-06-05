@@ -7,7 +7,7 @@ nav_title: "Éléments de l'accessibilité du Web" # A short title that is used 
  
 lang: fr   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
  
-last_updated: 2019-06-02   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-06-05   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators:
 - name: "@code-elegant"   # Replace @@ with translator name
 # - name: "@@"   # Replace @@ with name, or delete this line if not multiple translators
@@ -80,12 +80,12 @@ Il est essentiel que des éléments distincts et multiples du développement web
 -   les connaissances, l’expérience et dans certains cas les stratégies d’adaptation **des utilisateurs** pour l’utilisation du Web&nbsp;;
 -   **des développeurs** - concepteurs, graphistes, codeurs, auteurs… y compris des développeurs handicapés et des utilisateurs qui contribuent&nbsp;;
 -   **des outils de création** - logiciels de création de sites web&nbsp;;
--   **des outils d’évaluation** - outils dæévaluation de læaccessibiité web, validateurs HTML ou CSS…
+-   **des outils d’évaluation** - outils d’évaluation de l’accessibiité web, validateurs HTML ou CSS…
  
 ## Comment les éléments s’articulent {#relate}
  
 {% assign example_url = "/fundamentals/components/examples/#relate" | relative_url %}
-![illustration montrant comment les éléments s’articulent, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/relate.png" | relative_url }}){:longdesc="{{example_url}}"}
+![illustration montrant comment les éléments s’articulent, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/relate.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
  
 Les **développeurs** web utilisent généralement **des outils de création** et des outils d’évaluation pour créer du **contenu** web.
  
@@ -109,7 +109,7 @@ Il y a des interdépendances importantes entre les éléments&nbsp;; c’est-à-
 Quand les fonctionnalités d’accessibilité sont réellement mises en œuvre dans un élément, les autres éléments sont plus susceptibles de les mettre en œuvre.
  
 {% assign example_url = "/fundamentals/components/examples/#cycle" | relative_url %}
-![illustration du cycle de mise en œuvre, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/cycle.png" | relative_url }}){:longdesc="{{example_url}}"}
+![illustration du cycle de mise en œuvre, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/cycle.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
  
 - Quand **les navigateurs web, les lecteurs de média, les technologies d’assistance, et les autres agents utilisateurs** fournissent une fonctionnalité d’accessibilité, les utilisateurs sont plus susceptibles de l’exiger  et les développeurs sont plus susceptibles de l’implémenter dans leur **contenu**.
 - Quand les développeurs veulent implémenter une fonctionnalité d’accessibilité dans leur **contenu**, ils sont plus susceptibles d’exiger que leur **outil de création** en rende simple la mise en œuvre.
@@ -121,7 +121,7 @@ Quand les fonctionnalités d’accessibilité sont réellement mises en œuvre d
 Si une fonctionnalité d’accessibilité n’est pas mise en œuvre dans un élément, il y a peu de motivation pour les autres éléments pour l’implémenter si cela ne résulte pas dans une expérience utilisateur accessible. Par exemple les développeurs n’implémenteront pas une fonctionnalité d’accessibilité que les outils de création ne fournissent pas et que la plupart des navigateurs et des technologies d’assistance ne mettent pas en œuvre systématiquement.
  
 {% assign example_url = "/fundamentals/components/examples/#weak" | relative_url %}
-![illustration ce qui arrive quand un élément est insuffisant, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/bridge.png" | relative_url }}){:longdesc="{{example_url}}"}
+![illustration ce qui arrive quand un élément est insuffisant, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/bridge.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
  
 Si un composant a une mise en œuvre de l’accessibilité amoindrie, d’autres éléments peuvent parfois compenser cela au travers de «&nbsp;contournements&nbsp;» qui nécessitent beaucoup plus d’effort et ne sont pas positifs pour l’accessibilité en général. Par exemple&nbsp;:
  
@@ -144,6 +144,6 @@ Ces règles d’accessibilité reposent sur le socle des spécifications techniq
 * la suite des spécifications [ARIA, Les applications Internet riches accessibles / The Accessible Rich Internet Applications](/standards-guidelines/aria/), qui définit une façon de de créer des applications web plus accessibles aux personnes handicapées. Elle aide notamment au développement de contenu dynamique et de contrôles d’interface utilisateur avancés avec Ajax, HTML, JavaScript et les technologies associées.
  
 {% assign example_url = "/fundamentals/components/examples/#guide" | relative_url %}
-![illustration montrant les règles pour les différents éléments, description détaillée disponible à {{ example_url }}]({{ "/content-images/wai-components/specs.png" | relative_url }}){:longdesc="{{example_url}}"}
+![illustration montrant les règles pour les différents éléments, description détaillée disponible à {{ example_url }}]({{ "/content-images/wai-components/specs.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
  
 Pour plus d’informations, voir [[W3C Accessibility Standards Overview]](/standards-guidelines/).
