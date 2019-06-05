@@ -42,7 +42,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 ---
 
 {::nomarkdown}
-{% include box.html type="start" h="2" title="Summary" class="full" %}
+{% include box.html type="start" h="2" title="Résumé" class="full" %}
 {:/}
  
 Cette page montre comment l’accessibilité dépend de l’articulation harmonieuse de nombreux éléments, et comment des améliorations d’éléments particuliers pourrait améliorer sensiblement l’accessibilité du web.
@@ -78,22 +78,22 @@ Il est essentiel que des éléments distincts et multiples du développement web
 -   **des navigateurs web, des lecteurs de média**, et d’autres «&nbsp;agents utilisateurs&nbsp;»&nbsp;;
 -   **une technologie d’assistance**, dans certains cas – lecteurs d’écran, claviers alternatifs, contacteurs, logiciel de numérisation etc.&nbsp;;
 -   les connaissances, l’expérience et dans certains cas les stratégies d’adaptation **des utilisateurs** pour l’utilisation du Web&nbsp;;
--   **des développeurs** - designers, coders, authors, etc., including developers with disabilities and users who contribute content&nbsp;;
--   **des outils de création** - software that creates websites&nbsp;;
--   **des outils d’évaluation** - web accessibility evaluation tools, HTML validators, CSS validators, etc.
+-   **des développeurs** - concepteurs, graphistes, codeurs, auteurs… y compris des développeurs handicapés et des utilisateurs qui contribuent&nbsp;;
+-   **des outils de création** - logiciels de création de sites web&nbsp;;
+-   **des outils d’évaluation** - outils dæévaluation de læaccessibiité web, validateurs HTML ou CSS…
  
 ## Comment les éléments s’articulent {#relate}
  
 {% assign example_url = "/fundamentals/components/examples/#relate" | relative_url %}
 ![illustration montrant comment les éléments s’articulent, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/relate.png" | relative_url }}){:longdesc="{{example_url}}"}
  
-Les **developpeurs** web utilisent généralement **des outils de création** et des outils d’évaluation pour créer du **contenu** web.
+Les **développeurs** web utilisent généralement **des outils de création** et des outils d’évaluation pour créer du **contenu** web.
  
 **Les personnes** ("**utilisateurs**") utilisent des **navigateurs web, lecteurs de média, des technologies d’assistance,** ou d’autres "**agents utilisateurs**" pour obtenir ou interagir avec le **contenu**.
  
 ## Interdépendances entre les éléments {#depend}
  
-Il ya des interdépendances importantes entre les éléments&nbsp;; c’est-à-dire que les éléments doivent s’articuler correctement pour que le web soit accessible. Par exemple, pour les équivalents textuels aux images&nbsp;:
+Il y a des interdépendances importantes entre les éléments&nbsp;; c’est-à-dire que les éléments doivent s’articuler correctement pour que le web soit accessible. Par exemple, pour les équivalents textuels aux images&nbsp;:
  
 -   les **spécifications techniques** traitent des équivalents textuels (par exemple, HTML définit l’attribut d’équivalent textuel (`alt`) pour l’élément image (`img`))
 -   **les règles WAI** ([WCAG, ATAG, UAAG décrites ci-dessous](#guidelines)) - définissent comment mettre en place les équivalents textuels dans la perspective de l’accessibilité dans les différents éléments
@@ -102,11 +102,11 @@ Il ya des interdépendances importantes entre les éléments&nbsp;; c’est-à-d
 -   les **outils d’évaluation** sont utilisés pour faciliter la vérification de la présence d’équivalents textuels
 -   les **agents utilisateurs** fournissent des interfaces à destination des êtres humains et des machines pour l’équivalent textuel
 -   les **technologies d’assistance** fournissent un accès aux êtres humains à l’équivalent textuel dans différentes modalités
--   les **utillisateurs** savent comment obtenir l’équivalent textuel depuis leur agent utilisateur ou leur technologie d’assitance ou les deux, selon que de besoin.
+-   les **utilisateurs** savent comment obtenir l’équivalent textuel depuis leur agent utilisateur ou leur technologie d’assistance ou les deux, selon que de besoin.
  
 ### Le cycle de mise en œuvre
  
-Quand les fonctionnalités d’accessibilité sont réellement mises en œuvre dans un élément, les autres éléments sont plus susceptibles de les mettre en œuvre.When accessibility features are effectively implemented in one component, the other components are more likely to implement them.
+Quand les fonctionnalités d’accessibilité sont réellement mises en œuvre dans un élément, les autres éléments sont plus susceptibles de les mettre en œuvre.
  
 {% assign example_url = "/fundamentals/components/examples/#cycle" | relative_url %}
 ![illustration du cycle de mise en œuvre, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/cycle.png" | relative_url }}){:longdesc="{{example_url}}"}
@@ -128,7 +128,7 @@ Si un composant a une mise en œuvre de l’accessibilité amoindrie, d’autres
 -   les développeurs ont plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité dans les outils de création&nbsp;; par exemple en codant directement du balisage au lieu d’au travers un outil&nbsp;;
 -   les utilisateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité dans les navigateurs, les lecteurs de média, et la technologie d’assistance et le manque d’accessibilité du contenu&nbsp;; par exemple en utilisant différents navigateurs ou technologies d’assistance pour surmonter différents problèmes.
  
-Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre et le résultat reste décevant en termes d’accessibilité. De plus un suuport défaillant de l’accessibilité dans un élément ne peut pas être raionnablement compensé par les autres éléments et le résultat en est l’inaccessibilité, rendant impossible pour certaines personnes handicapées l’utilisation d’un site, une page ou une fonctionalité précis.
+Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre et le résultat reste décevant en termes d’accessibilité. De plus un support défaillant de l’accessibilité dans un élément ne peut pas être raisonnablement compensé par les autres éléments et le résultat en est l’inaccessibilité, rendant impossible pour certaines personnes handicapées l’utilisation d’un site, une page ou une fonctionnalité précis.
  
 ## Règles et autres standards {#guidelines}
  
