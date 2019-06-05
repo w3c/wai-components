@@ -29,7 +29,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
     Vous pouvez utiliser les images de cette page pour l’éducation à l’accessibilité et son rayonnement si vous:<br>
     1. Incluez l’URI <strong><span class="changed">w3.org/WAI/fundamentals/components/</span> <em>en évidence</em></strong> à proximité de l’image, et <br>
     2. Incluez l’attribution à l’artiste, l’éditeur, et la mention de copyright dans tous les travaux publiés ou diffusés&nbsp;:<br><cite>Image par Michael Duffy, depuis: Essential Components of Web  Accessibility. Éditeur S.L. Henry. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/fundamentals/components/</cite><br>
-    Pour plus d’informations, voir <a href="https://www.w3.org/WAI/about/usingWAImaterial.html">Using WAI Materials</a>.
+    Pour plus d’informations, voir <a href="https://www.w3.org/WAI/about/usingWAImaterial.html">Using WAI Materials (en anglais)</a>.
   </p>
   <p><strong>Date&nbsp;: </strong>Mis à jour le 27 February 2018. <!-- [<a href="@@">Changelog</a>] --> </p>
   <p><strong>Éditeur&nbsp;:</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
@@ -40,8 +40,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 # Read Translations Notes for this resource at https://github.com/w3c/wai-components/blob/master/README.md
 # end of translation instructions 
 ---
- 
- 
+
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
@@ -49,7 +48,6 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 Cette page montre comment l’accessibilité dépend de l’articulation harmonieuse de nombreux éléments, et comment des améliorations d’éléments particuliers pourrait améliorer sensiblement l’accessibilité du web.
  
 Il fournit les bases pour comprendre les différents standards d’accessibilité produits par l’Initiative pour l’Accessibilité du Web (Web Accessibility Initiative WAI) du <abbr title="World Wide Web Consortium">W3C</abbr>.
-# World Wide Web Consortium is not translated in French (but W3C is pronounced the French way)
  
 {::nomarkdown}
 {% include box.html type="end" %}
