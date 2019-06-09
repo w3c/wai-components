@@ -28,7 +28,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:creator>
           <cc:Agent>
             <dc:title>Michael Duffy</dc:title>
@@ -168,29 +168,6 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1018"
-       id="linearGradient1035"
-       x1="33.82708"
-       y1="413.21729"
-       x2="450.79446"
-       y2="413.21729"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,-162)" />
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter1077"
-       x="-0.096420729"
-       width="1.1928415"
-       y="-0.12273998"
-       height="1.24548">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="16.751791"
-         id="feGaussianBlur1079" />
-    </filter>
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient1162"
        id="linearGradient1164"
        x1="148.34158"
@@ -240,6 +217,29 @@
        y2="-39.090984"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.0288826,0,0,1.0188889,-95.460426,69.214308)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1018"
+       id="linearGradient1035"
+       x1="33.82708"
+       y1="413.21729"
+       x2="450.79446"
+       y2="413.21729"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-162)" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1077"
+       x="-0.096420728"
+       width="1.1928415"
+       y="-0.12273998"
+       height="1.2454799">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="16.751791"
+         id="feGaussianBlur1079" />
+    </filter>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -255,32 +255,33 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="1.8021007"
-     inkscape:cx="-70.962119"
-     inkscape:cy="206.49322"
+     inkscape:cx="41.316421"
+     inkscape:cy="184.2969"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer3"
      showguides="true"
      inkscape:guide-bbox="true" />
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="bottom"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:7.7114501;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1261"
        width="485.73553"
        height="422.21353"
-       x="1.1861279"
+       x="1.1861286"
        y="-7.7060003" />
     <path
-       style="opacity:1;vector-effect:none;fill:url(#linearGradient1035);fill-opacity:1;stroke:none;stroke-width:1.49914014;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:0.62295077;filter:url(#filter1077)"
+       style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient1035);fill-opacity:1;stroke:none;stroke-width:1.49914014;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:0.62295077;filter:url(#filter1077)"
        d="M 450.79446,251.2173 A 208.48369,163.77834 0 0 1 242.31077,414.99563 208.48369,163.77834 0 0 1 33.827078,251.2173 208.48369,163.77834 0 0 1 242.31077,87.43896 208.48369,163.77834 0 0 1 450.79446,251.2173 Z"
        id="path1026"
        inkscape:connector-curvature="0"
-       transform="matrix(0.98146639,0,0,1.0574069,5.8105372,-23.605203)" />
+       transform="matrix(0.98146639,0,0,1.0803139,4.180109,-62.390424)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -302,7 +303,8 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="middle"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:14.53497314;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:1"
        d="m 283.42048,121.93161 v 84.13282 h 98.99805 v -84.13282 z m 16.38672,16.04883 h 66.22461 v 52.03321 H 299.8072 Z"
@@ -363,7 +365,8 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="frames"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        id="g2126"
        transform="translate(0,-140)">
@@ -563,7 +566,8 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="persons"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        id="g1294"
        transform="translate(0,2)">
@@ -627,7 +631,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="up"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        style="display:inline"
        id="g2240">

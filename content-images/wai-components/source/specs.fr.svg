@@ -17,7 +17,7 @@
    viewBox="0 0 484 404"
    sodipodi:docname="specs.fr.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   inkscape:export-filename="/home/legaller/Bureau/specs.fr.png"
+   inkscape:export-filename="/home/legaller/Bureau/W3C traductions/specs.fr.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <metadata
@@ -29,6 +29,29 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Michael Duffy</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>see https://www.w3.org/WAI/fundamentals/components/</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>W3C</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>fr</dc:language>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>code-elegant@github</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <cc:license
+           rdf:resource="https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231" />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -145,29 +168,6 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1018"
-       id="linearGradient1035"
-       x1="33.82708"
-       y1="413.21729"
-       x2="450.79446"
-       y2="413.21729"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,-162)" />
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter1077"
-       x="-0.096420729"
-       width="1.1928415"
-       y="-0.12273998"
-       height="1.24548">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="16.751791"
-         id="feGaussianBlur1079" />
-    </filter>
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient1162"
        id="linearGradient1164"
        x1="148.34158"
@@ -217,6 +217,29 @@
        y2="-39.090984"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.0288826,0,0,1.0188889,-95.460426,69.214308)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1018"
+       id="linearGradient1035"
+       x1="33.82708"
+       y1="413.21729"
+       x2="450.79446"
+       y2="413.21729"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-162)" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1077"
+       x="-0.096420728"
+       width="1.1928415"
+       y="-0.12273998"
+       height="1.2454799">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="16.751791"
+         id="feGaussianBlur1079" />
+    </filter>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -232,8 +255,8 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="1.8021007"
-     inkscape:cx="-106.8753"
-     inkscape:cy="192.5279"
+     inkscape:cx="239.11147"
+     inkscape:cy="210.28496"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -244,23 +267,24 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="bottom"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:7.7114501;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:7.58078289;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1261"
-       width="485.73553"
-       height="422.21353"
-       x="1.1861279"
-       y="-7.7060003"
+       width="485.86621"
+       height="407.9166"
+       x="1.1207944"
+       y="-7.6709871"
        inkscape:export-filename="/home/legaller/Bureau/rect1261.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
-       style="opacity:1;vector-effect:none;fill:url(#linearGradient1035);fill-opacity:1;stroke:none;stroke-width:1.49914014;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:0.62295077;filter:url(#filter1077)"
+       style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient1035);fill-opacity:1;stroke:none;stroke-width:1.49914014;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:0.62295077;filter:url(#filter1077)"
        d="M 450.79446,251.2173 A 208.48369,163.77834 0 0 1 242.31077,414.99563 208.48369,163.77834 0 0 1 33.827078,251.2173 208.48369,163.77834 0 0 1 242.31077,87.43896 208.48369,163.77834 0 0 1 450.79446,251.2173 Z"
        id="path1026"
        inkscape:connector-curvature="0"
-       transform="matrix(0.98146639,0,0,1.0574069,5.8105372,-23.605203)" />
+       transform="matrix(0.98146675,0,0,1.0803139,4.1800218,-62.390794)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -284,12 +308,6 @@
      inkscape:label="middle"
      style="display:inline"
      sodipodi:insensitive="true">
-    <path
-       sodipodi:nodetypes="ccccccc"
-       inkscape:connector-curvature="0"
-       id="path1096"
-       d="m 243.80889,71.133346 -51.21764,33.677654 234,183.90727 c 11.80441,-7.91942 27.15784,-18.40366 38.96225,-26.32308 l -0.006,-11.84412 C 432.00608,223.4396 392.35056,191.19845 358.80889,164.08698 Z"
-       style="opacity:1;vector-effect:none;fill:#727272;fill-opacity:0.40697674;stroke:none;stroke-width:12.05738735;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:1" />
     <path
        style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:14.53497314;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.82999992;stroke-opacity:1"
        d="m 283.42048,121.93161 v 84.13282 h 98.99805 v -84.13282 z m 16.38672,16.04883 h 66.22461 v 52.03321 H 299.8072 Z"
