@@ -25,13 +25,13 @@ feedbackmail: wai@w3.org
 footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
   <p>
     <strong>Autorisation d’exploitation&nbsp;:</strong>
-    Vous pouvez utiliser les images de cette page pour l’éducation à l’accessibilité et sa sensibilisation si vous:<br>
+    Vous pouvez utiliser les images de cette page pour l’éducation à l’accessibilité et sa sensibilisation si vous&nbsp;:<br>
     1. Incluez l’URI <strong><span class="changed">w3.org/WAI/fundamentals/components/</span> <em>en évidence</em></strong> à proximité de l’image, et <br>
-    2. Incluez l’attribution à l’artiste, l’éditeur, et la mention de copyright dans tous les travaux publiés ou diffusés&nbsp;:<br><cite>Image par Michael Duffy, depuis: Essential Components of Web  Accessibility. Éditrice S. L. Henry. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/fundamentals/components/</cite><br>
-    Pour plus d’informations, voir <a href="https://www.w3.org/WAI/about/usingWAImaterial.html">Using WAI Materials (en anglais)</a>.
+    2. Incluez l’attribution à l’artiste, l’éditeur, et la mention de copyright dans tous les travaux publiés ou diffusés&nbsp;:<br><cite>Image par Michael Duffy, depuis&nbsp;: Essential Components of Web  Accessibility. Éditrice S. L. Henry. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/fundamentals/components/</cite><br>
+    Pour plus d’informations, voir <a href="https://www.w3.org/WAI/about/usingWAImaterial.html" lang="en" hreflang="en">Using WAI Materials (en anglais)</a>.
   </p>
   <p><strong>Date&nbsp;: </strong>Mis à jour le 27 février 2018. <!-- [<a href="@@">Changelog</a>] --> </p>
-  <p><strong>Éditrice&nbsp;:</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
+  <p><strong>Éditrice&nbsp;:</strong> <a href="http://www.w3.org/People/Shawn" lang="en" hreflang="en">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
   <p>Élaboré avec des contributions du groupe de travail «&nbsp;Éducation et Sensibilisation&nbsp;» (<span lang=”en”>Education and Outreach Working Group</span>) (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
  
  
@@ -73,20 +73,20 @@ Il est essentiel que des composantes distinctes et multiples du développement w
  
 -   **du contenu** - l’information contenue dans une page web ou une application web, y compris&nbsp;:
 	-   de l’information primaire telle que du texte, des images et des sons,
-	-   du code ou du balisage qui définit la structure, la présentation etc.&nbsp;;
+	-   du code ou du balisage qui définit la structure, la présentation… &nbsp;;
 -   **des navigateurs web, des lecteurs de média**, et d’autres «&nbsp;agents utilisateurs&nbsp;»&nbsp;;
--   **une technologie d’assistance**, dans certains cas – lecteurs d’écran, claviers alternatifs, contacteurs, logiciel de numérisation etc.&nbsp;;
+-   **une technologie d’assistance**, dans certains cas – lecteurs d’écran, claviers alternatifs, contacteurs, logiciel de numérisation… &nbsp;;
 -   les connaissances, l’expérience et dans certains cas les stratégies d’adaptation **des utilisateurs** pour l’utilisation du Web&nbsp;;
--   **des créateurs** - concepteurs, graphistes, codeurs, auteurs… y compris des créateurs handicapés et des utilisateurs qui contribuent&nbsp;;
--   **des outils de création** - logiciels de création de sites web&nbsp;;
--   **des outils d’évaluation** - outils d’évaluation de l’accessibilité web, validateurs HTML ou CSS…
+-   **des créateurs** – concepteurs, graphistes, codeurs, auteurs… y compris des créateurs handicapés et des utilisateurs qui contribuent&nbsp;;
+-   **des outils de création** – logiciels de création de sites web&nbsp;;
+-   **des outils d’évaluation** – outils d’évaluation de l’accessibilité web, validateurs HTML ou CSS…
  
 ## Comment les composantes s’articulent {#relate}
  
 {% assign example_url = "/fundamentals/components/examples/#relate" | relative_url %}
 ![illustration montrant comment les composantes s’articulent, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/relate.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
  
-Les **développeurs** web utilisent généralement **des outils de création** et des outils d’évaluation pour créer du **contenu** web.
+Les **créateurs** web utilisent généralement **des outils de création** et des outils d’évaluation pour créer du **contenu** web.
  
 **Les personnes** ("**utilisateurs**") utilisent des **navigateurs web, des lecteurs de média, des technologies d’assistance,** ou d’autres "**agents utilisateurs**" pour obtenir ou interagir avec le **contenu**.
  
@@ -131,17 +131,17 @@ Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre e
  
 ## Règles et autres standards {#guidelines}
  
-L’Initiative pour l’Accessibilité du Web (Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) du World Wide Web Consortium ([W3C {% include_cached different.html %}](https://www.w3.org/)) développe des **standards d’accessibilité du web** pour différentes composantes&nbsp;:
+L’Initiative pour l’Accessibilité du Web (<span lang="en">Web Accessibility Initiative</span> ([WAI](https://www.w3.org/WAI/)) du <span lang="en">World Wide Web Consortium</span> ([W3C {% include_cached different.html %}](https://www.w3.org/)) développe des **standards d’accessibilité du web** pour différentes composantes&nbsp;:
  
--   [[les règles pour l'accessibilité des outils d'édition / Authoring Tool Accessibility Guidelines (ATAG)]](/standards-guidelines/atag/) traite des outils de création&nbsp;;
--   [[les règles pour l'accessibilité des contenus Web / Web Content Accessibility Guidelines (WCAG)]](/standards-guidelines/wcag/) traite du contenu web, et est utilisé par les créateurs, outils de création et outils d’évaluation de l’accessibilité&nbsp;;
--   [[les règles pour l'accessibilité des agents utilisateurs / User Agent Accessibility Guidelines (UAAG)]](/standards-guidelines/uaag/) traite des navigateurs et lecteurs de média, y compris certains aspects des technologies d’assistance.
+-   [[les règles pour l'accessibilité des outils d'édition / <span lang="en">Authoring Tool Accessibility Guidelines</span> (ATAG)]](/standards-guidelines/atag/) traite des outils de création&nbsp;;
+-   [[les règles pour l'accessibilité des contenus Web / <span lang="en">Web Content Accessibility Guidelines</span> (WCAG)]](/standards-guidelines/wcag/) traite du contenu web, et est utilisé par les créateurs, outils de création et outils d’évaluation de l’accessibilité&nbsp;;
+-   [[les règles pour l'accessibilité des agents utilisateurs / <span lang="en">User Agent Accessibility Guidelines</span> (UAAG)]](/standards-guidelines/uaag/) traite des navigateurs et lecteurs de média, y compris certains aspects des technologies d’assistance.
  
 Ces règles d’accessibilité reposent sur le socle des spécifications techniques fondamentales du Web, et sont développées en coordination avec toutes les <a href="https://www.w3.org/TR/">spécifications techniques du W3C {% include_cached different.html %}</a> (HTML, CSS, SVG, SMIL, etc.). Le W3C développe aussi des spécifications techniques qui traitent directement d’accessibilité, dont&nbsp;:
  
-* la suite des spécifications [ARIA, Les applications Internet riches accessibles / The Accessible Rich Internet Applications](/standards-guidelines/aria/), qui définit une façon de de créer des applications web plus accessibles aux personnes handicapées. Elle facilite notamment le développement de contenu dynamique et de contrôles d’interface utilisateur avancés avec Ajax, HTML, JavaScript et les technologies associées.
+* la suite des spécifications [ARIA, Les applications Internet riches accessibles / <span lang="en">The Accessible Rich Internet Applications</span>](/standards-guidelines/aria/), qui définit une façon de créer des applications web plus accessibles aux personnes handicapées. Elle facilite notamment le développement de contenu dynamique et de contrôles d’interface utilisateur avancés avec Ajax, HTML, JavaScript et les technologies associées.
  
 {% assign example_url = "/fundamentals/components/examples/#guide" | relative_url %}
 ![illustration montrant les règles pour les différentes composantes, description détaillée disponible à {{ example_url }}]({{ "/content-images/wai-components/specs.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
  
-Pour plus d’informations, voir [[W3C Accessibility Standards Overview]](/standards-guidelines/).
+Pour plus d’informations, voir <span lang="en">[[W3C Accessibility Standards Overview]](/standards-guidelines/)</span>.
