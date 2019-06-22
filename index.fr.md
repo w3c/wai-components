@@ -1,7 +1,7 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 
-title: Composantes essentielles de l'accessibilité du Web # Do not translate "title:". Do translate the text after "title:".
+title: Composantes essentielles de l’accessibilité du Web # Do not translate "title:". Do translate the text after "title:".
 nav_title: "Composantes de l'accessibilité du Web" # A short title that is used in the navigation
  
 lang: fr   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
@@ -46,7 +46,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
  
 Cette page montre comment l’accessibilité dépend de l’articulation harmonieuse de nombreuses composantes, et comment des améliorations de certaines pourraient améliorer sensiblement l’accessibilité du web.
  
-Elle fournit les bases pour comprendre les différents standards d’accessibilité produits par l’Initiative pour l’Accessibilité du Web (Web Accessibility Initiative WAI) du <abbr title="World Wide Web Consortium">W3C</abbr>.
+Elle fournit les bases pour comprendre les différents standards d’accessibilité produits par l’Initiative pour l’Accessibilité du Web (<span lang="en">Web Accessibility Initiative WAI</span>) du <abbr title="World Wide Web Consortium">W3C</abbr>.
  
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -71,7 +71,7 @@ Elle fournit les bases pour comprendre les différents standards d’accessibili
  
 Il est essentiel que des composantes distinctes et multiples du développement web et de l’interaction utilisateur s’articulent convenablement pour que le Web soit accessible aux personnes handicapées. Ces composantes incluent&nbsp;:
  
--   **du contenu** - l’information contenue dans une page web ou une application web, y compris&nbsp;:
+-   **du contenu** – l’information contenue dans une page web ou une application web, y compris&nbsp;:
 	-   de l’information primaire telle que du texte, des images et des sons,
 	-   du code ou du balisage qui définit la structure, la présentation… &nbsp;;
 -   **des navigateurs web, des lecteurs de média**, et d’autres «&nbsp;agents utilisateurs&nbsp;»&nbsp;;
@@ -133,9 +133,9 @@ Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre e
  
 L’Initiative pour l’Accessibilité du Web (<span lang="en">Web Accessibility Initiative</span> ([WAI](https://www.w3.org/WAI/)) du <span lang="en">World Wide Web Consortium</span> ([W3C {% include_cached different.html %}](https://www.w3.org/)) développe des **standards d’accessibilité du web** pour différentes composantes&nbsp;:
  
--   [[les règles pour l'accessibilité des outils d'édition / <span lang="en">Authoring Tool Accessibility Guidelines</span> (ATAG)]](/standards-guidelines/atag/) traite des outils de création&nbsp;;
--   [[les règles pour l'accessibilité des contenus Web / <span lang="en">Web Content Accessibility Guidelines</span> (WCAG)]](/standards-guidelines/wcag/) traite du contenu web, et est utilisé par les créateurs, outils de création et outils d’évaluation de l’accessibilité&nbsp;;
--   [[les règles pour l'accessibilité des agents utilisateurs / <span lang="en">User Agent Accessibility Guidelines</span> (UAAG)]](/standards-guidelines/uaag/) traite des navigateurs et lecteurs de média, y compris certains aspects des technologies d’assistance.
+-   [les règles pour l'accessibilité des outils d'édition / <span lang="en">Authoring Tool Accessibility Guidelines</span> (ATAG)](/standards-guidelines/atag/) traite des outils de création&nbsp;;
+-   [les règles pour l'accessibilité des contenus Web / <span lang="en">Web Content Accessibility Guidelines</span> (WCAG)](/standards-guidelines/wcag/) traite du contenu web, et est utilisé par les créateurs, outils de création et outils d’évaluation de l’accessibilité&nbsp;;
+-   [les règles pour l'accessibilité des agents utilisateurs / <span lang="en">User Agent Accessibility Guidelines</span> (UAAG)](/standards-guidelines/uaag/) traite des navigateurs et lecteurs de média, y compris certains aspects des technologies d’assistance.
  
 Ces règles d’accessibilité reposent sur le socle des spécifications techniques fondamentales du Web, et sont développées en coordination avec toutes les <a href="https://www.w3.org/TR/">spécifications techniques du W3C {% include_cached different.html %}</a> (HTML, CSS, SVG, SMIL, etc.). Le W3C développe aussi des spécifications techniques qui traitent directement d’accessibilité, dont&nbsp;:
  
@@ -144,4 +144,4 @@ Ces règles d’accessibilité reposent sur le socle des spécifications techniq
 {% assign example_url = "/fundamentals/components/examples/#guide" | relative_url %}
 ![illustration montrant les règles pour les différentes composantes, description détaillée disponible à {{ example_url }}]({{ "/content-images/wai-components/specs.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
  
-Pour plus d’informations, voir <span lang="en">[[W3C Accessibility Standards Overview]](/standards-guidelines/)</span>.
+Pour plus d’informations, voir <span lang="en">[W3C Accessibility Standards Overview](/standards-guidelines/)</span>.
