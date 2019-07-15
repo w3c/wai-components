@@ -9,7 +9,7 @@ lang: ko   # Change "en" to the translated language shortcode from https://www.i
 last_updated: 2019-07-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators: 
 - name: "Yong Ui Lee"   # Replace @@ with translator name
-- link: "https://twitter.com/yongui9"
+  link: "https://twitter.com/yongui9"
 contributors:
 - name: "Jun Ho Lee"   # Replace @@ with contributor name, or delete this line if none
 
