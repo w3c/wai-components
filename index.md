@@ -19,7 +19,7 @@ ref: /fundamentals/components/   # Do not change this
 github:
   repository: w3c/wai-components
   path: index.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
-permalink: /fundamentals/components/   # Add the language shortcode to the end; for example /fundamentals/components/fr
+permalink: /fundamentals/components/   # Add the language shortcode to the end and trailing slash (/); for example /fundamentals/accessibility-intro/fr/
 feedbackmail: wai@w3.org
 
 footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
