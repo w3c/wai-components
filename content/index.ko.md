@@ -17,7 +17,7 @@ ref: /fundamentals/components/   # Do not change this
 
 github:
   repository: w3c/wai-components
-  path: index.ko.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
+  path: content/index.ko.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
 permalink: /fundamentals/components/ko   # Add the language shortcode to the end; for example /fundamentals/components/fr
 feedbackmail: wai@w3.org
 
