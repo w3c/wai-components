@@ -12,7 +12,7 @@ parent: /fundamentals/components/
 
 github:
   repository: w3c/wai-components
-  path: 'wai-components-example.md'
+  path: content/wai-components-example.md
   
 ref: /fundamentals/components/examples/  
 ---
