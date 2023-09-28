@@ -33,13 +33,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
   <p><strong>날짜: </strong>2018년 2월 27일 업데이트됨. <!-- [<a href="@@">변경 기록</a>] --></p>
   <p><strong>편집자:</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. 그래픽 디자이너: Michael Duffy.</p>
   <p>교육과 활동관련 실무 그룹인 (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)의 지원을 받아 제작되었습니다.</p>
-  
-# Read Important Translations Guidance at https://www.w3.org/WAI/about/translating/#important
-# Read Translations Notes for this resource at https://github.com/w3c/wai-components/blob/master/README.md
-# end of translation instructions  
 ---
-
-
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Summary" class="full" %}
