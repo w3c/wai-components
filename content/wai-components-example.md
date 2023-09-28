@@ -1,6 +1,4 @@
 ---
-# Translation info https://www.w3.org/wiki/WAI/Website/Translate
-
 title: Descriptions of Essential Components of Web Accessibility Illustrations
 nav_title: Illustration Descriptions
 
