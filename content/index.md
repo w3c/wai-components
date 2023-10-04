@@ -34,13 +34,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
   <p><strong>Date: </strong>Updated 27 February 2018. <!-- [<a href="@@">Changelog</a>] --></p>
   <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Graphic artist: Michael Duffy.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
-  
-# Read Important Translations Guidance at https://www.w3.org/WAI/about/translating/#important
-# Read Translations Notes for this resource at https://github.com/w3c/wai-components/blob/master/README.md
-# end of translation instructions  
 ---
-
-
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Summary" class="full" %}
