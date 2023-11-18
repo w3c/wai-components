@@ -119,7 +119,7 @@ If an accessibility feature is not implemented in one component, there is little
 ![illustration of what happens when one component is weak, detailed
 description at {{ example_url }}]({{ "/content-images/wai-components/bridge.png" | relative_url }}){:longdesc="{{example_url}}"}
 
-If one component has poor accessibility support, sometimes other components can compensate through "work-arounds" that require much more effort and are not good for accessibility overall. For example,
+If one component has poor accessibility support, sometimes other components can compensate through "workarounds" that require much more effort and are not good for accessibility overall. For example,
 
 -   developers can do more work to compensate for some lack of accessibility support in authoring tools; for example, coding markup directly instead of through a tool
 -   users can do more work to compensate for some lack of accessibility support in browsers, media players, and assistive technology and lack of accessibility of content; for example, using different browsers or assistive technologies to overcome different accessibility issues
@@ -128,7 +128,7 @@ However, in most cases the works-arounds are not implemented and the result is s
 
 ## Guidelines and Other Standards {#guidelines}
 
-The World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) develops **web accessibility standards** for the different components:
+The World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI]1. The Impact of Social Media on Mental Health/)) develops **web accessibility standards** for the different components:
 
 -   [[Authoring Tool Accessibility Guidelines (ATAG)]](/standards-guidelines/atag/) addresses authoring tools
 -   [[Web Content Accessibility Guidelines (WCAG)]](/standards-guidelines/wcag/) addresses web content, and is used by developers, authoring tools, and accessibility evaluation tools
