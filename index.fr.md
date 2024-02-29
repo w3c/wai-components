@@ -32,7 +32,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
   </p>
   <p><strong>Date&nbsp;: </strong>Mis à jour le 27 février 2018. <!-- [<a href="@@">Changelog</a>] --> </p>
   <p><strong>Éditrice&nbsp;:</strong> <a href="http://www.w3.org/People/Shawn" lang="en" hreflang="en">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
-  <p>Élaboré avec des contributions du groupe de travail «&nbsp;Éducation et Sensibilisation&nbsp;» (<span lang=”en”>Education and Outreach Working Group</span>) (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
+  <p>Élaboré avec des contributions du groupe de travail «&nbsp;Éducation et Promotion&nbsp;» (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
  
  
 # Read Important Translations Guidance at https://www.w3.org/WAI/about/translating/#important
@@ -44,7 +44,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 {% include box.html type="start" h="2" title="Résumé" class="full" %}
 {:/}
  
-Cette page montre comment l’accessibilité dépend de l’articulation harmonieuse de nombreuses composantes, et comment des améliorations de certaines pourraient améliorer sensiblement l’accessibilité du web.
+Cette page montre comment l’accessibilité dépend de l’articulation harmonieuse de nombreuses composantes, et comment des améliorations de certaines pourraient améliorer sensiblement l’accessibilité du Web.
  
 Elle fournit les bases pour comprendre les différents standards d’accessibilité produits par l’Initiative pour l’Accessibilité du Web (<span lang="en">Web Accessibility Initiative WAI</span>) du <abbr title="World Wide Web Consortium">W3C</abbr>.
  
@@ -122,10 +122,10 @@ Si une fonctionnalité d’accessibilité n’est pas mise en œuvre dans une co
 {% assign example_url = "/fundamentals/components/examples/#weak" | relative_url %}
 ![illustration ce qui arrive quand une composante est déficiente, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/bridge.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
  
-Si une composante a une mise en œuvre de l’accessibilité amoindrie, d’autres composantes peuvent parfois compenser cela au travers de «&nbsp;contournements&nbsp;» qui nécessitent beaucoup plus d’effort et ne sont pas positifs pour l’accessibilité en général. Par exemple&nbsp;:
+Si une composante a une faible prise en compte de l'accessibilité, d’autres composantes peuvent parfois compenser cela au travers de «&nbsp;contournements&nbsp;» qui nécessitent beaucoup plus d’effort et ne sont pas positifs pour l’accessibilité en général. Par exemple&nbsp;:
  
--   les créateurs ont plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité dans les outils de création&nbsp;; par exemple en codant directement du balisage plutôt que grâce à un outil&nbsp;;
--   les utilisateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité dans les navigateurs, les lecteurs de média, et la technologie d’assistance et le manque d’accessibilité du contenu&nbsp;; par exemple en utilisant différents navigateurs ou technologies d’assistance pour surmonter différents problèmes.
+-   les créateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité des outils de création&nbsp;; par exemple en codant du balisage directement plutôt que grâce à un outil&nbsp;;
+-   les utilisateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité des navigateurs, des lecteurs de média, et de la technologie d’assistance&nbsp;; et le manque d’accessibilité du contenu&nbsp;; par exemple en utilisant différents navigateurs ou technologies d’assistance pour surmonter différents problèmes d'accessibilité.
  
 Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre et le résultat reste décevant en termes d’accessibilité. De plus un support défaillant de l’accessibilité dans une composante ne peut parfois pas être raisonnablement compensé par les autres composantes et le résultat en est l’inaccessibilité, rendant impossible pour certaines personnes handicapées l’utilisation d’un site, d’une page ou d’une fonctionnalité précis.
  
@@ -137,11 +137,12 @@ L’Initiative pour l’Accessibilité du Web (<span lang="en">Web Accessibility
 -   [les règles pour l'accessibilité des contenus Web / <span lang="en">Web Content Accessibility Guidelines</span> (WCAG)](/standards-guidelines/wcag/) traite du contenu web, et est utilisé par les créateurs, outils de création et outils d’évaluation de l’accessibilité&nbsp;;
 -   [les règles pour l'accessibilité des agents utilisateurs / <span lang="en">User Agent Accessibility Guidelines</span> (UAAG)](/standards-guidelines/uaag/) traite des navigateurs et lecteurs de média, y compris certains aspects des technologies d’assistance.
  
-Ces règles d’accessibilité reposent sur le socle des spécifications techniques fondamentales du Web, et sont développées en coordination avec toutes les <a href="https://www.w3.org/TR/">spécifications techniques du W3C {% include_cached different.html %}</a> (HTML, CSS, SVG, SMIL, etc.). Le W3C développe aussi des spécifications techniques qui traitent directement d’accessibilité, dont&nbsp;:
+Ces règles d’accessibilité reposent sur le socle des spécifications techniques fondamentales du Web, et sont développées en coordination avec toutes les <a href="https://www.w3.org/TR/">spécifications techniques de W3C {% include_cached different.html %}</a> (HTML, CSS, SVG, SMIL, etc.). W3C développe aussi des spécifications techniques qui traitent directement d’accessibilité, dont&nbsp;:
  
 * la suite des spécifications [ARIA, Les applications Internet riches accessibles / <span lang="en">The Accessible Rich Internet Applications</span>](/standards-guidelines/aria/), qui définit une façon de créer des applications web plus accessibles aux personnes handicapées. Elle facilite notamment le développement de contenu dynamique et de contrôles d’interface utilisateur avancés avec Ajax, HTML, JavaScript et les technologies associées.
  
 {% assign example_url = "/fundamentals/components/examples/#guide" | relative_url %}
 ![illustration montrant les règles pour les différentes composantes, description détaillée disponible à {{ example_url }}]({{ "/content-images/wai-components/specs.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
  
-Pour plus d’informations, voir <span lang="en">[W3C Accessibility Standards Overview](/standards-guidelines/)</span>.
+Pour plus d’informations, consultez [[Vue d’ensemble des standards d’accessibilité du W3C
+]](/standards-guidelines/).
