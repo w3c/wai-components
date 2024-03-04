@@ -5,7 +5,7 @@
 title: Essential Components of Web Accessibility
 nav_title: "Components of Web Accessibility" # A short title that is used in the navigation
 lang: en   # Change "en" to the translated language shortcode
-last_updated: 2018-02-27   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-04   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -38,7 +38,6 @@ footer: >
   </p>
   <p><strong>Date: </strong>Updated 27 February 2018.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Graphic artist: Michael Duffy.</p>
-  <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
 
 {::nomarkdown}
