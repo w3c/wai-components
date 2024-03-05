@@ -6,7 +6,7 @@ nav_title: "웹 접근성 요소" # A short title that is used in the navigation
 
 lang: ko   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 
-last_updated: 2019-07-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-05   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators: 
 - name: "Yong Ui Lee"   # Replace @@ with translator name
   link: "https://twitter.com/yongui9"
@@ -32,7 +32,6 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
   </p>
   <p><strong>날짜: </strong>2018년 2월 27일 업데이트됨. <!-- [<a href="@@">변경 기록</a>] --></p>
   <p><strong>편집자:</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. 그래픽 디자이너: Michael Duffy.</p>
-  <p>교육과 활동관련 실무 그룹인 (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)의 지원을 받아 제작되었습니다.</p>
 ---
 
 {::nomarkdown}
