@@ -1,18 +1,27 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
+
 title: Descriptions of Essential Components of Web Accessibility Illustrations
 nav_title: Illustration Descriptions
+lang: en  # Change "en" to the translated language shortcode
+last_updated: 2024-03-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
-lang: en
-last_updated: 2018-02-27
-permalink: /fundamentals/components/examples/
-
-parent: /fundamentals/components/
+# translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# - name: "Jan Doe"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
   repository: w3c/wai-components
-  path: content/wai-components-example.md
-  
-ref: /fundamentals/components/examples/  
+  path: content/wai-components-example.md # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
+
+permalink: /fundamentals/components/examples/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /fundamentals/components/examples/ # Do not change this
+
+parent: /fundamentals/components/ # Do not change this
 ---
 
 {::nomarkdown}
@@ -55,13 +64,6 @@ Illustration with labeled graphics of boxes, content, and people. at the top cen
 components]({{ "/content-images/wai-components/specs.png" | relative_url }})
 
 Illustration with labeled graphics of boxes, content, and people. at the top center is a pie chart, an image, a form, and text, labeled “content”. coming up from the bottom left, a line connects “developers” through “authoring tools” and “evaluation tools” to “content” at the top. coming up from the bottom right, an arrow connects “users” to “browsers, media players” and “assistive technologies” to “content” at the top. below these are “accessibility guidelines” which include “ATAG” with an arrow pointing to “authoring tools” and “evaluation tools”, “WCAG” pointing to “content”, and “UAAG” pointing to “browsers, media players” and “assistive technologies”. at the very bottom, “technical specifications (HTML, ARIA, CSS, SVG, SMIL, etc.)” forms a base with an arrow pointing up to the accessibility guidelines.
-
-## Components and Guidelines Illustration Description {#rel-guide}
-
-![Illustration showing How Components
-Relate]({{ "/content-images/wai-components/relate.png" | relative_url }})
-
-Illustration with labeled graphics of boxes, content, and people. at the top center is a pie chart, an image, a form, and text, labeled “content” - underneath is WCA". coming up from the bottom left, a line connects “developers” through “authoring tools” - underneath is ATAG - and “evaluation tools” - underneath is EARL - to “content” at the top. coming up from the bottom right, a line connects “users” to “browsers, media players” - underneath is UAAG - and “assistive technologies” to “content” at the top. In the middle, bottom is WAI-ARIA.
 
 {% comment %}
 
