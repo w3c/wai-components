@@ -7,7 +7,7 @@
    width="511"
    height="392"
    viewBox="0 0 511 392"
-   sodipodi:docname="specs.en.svg"
+   sodipodi:docname="specs.svg"
    inkscape:version="1.3 (0e150ed, 2023-07-21)"
    inkscape:export-filename="specs.en.png"
    inkscape:export-xdpi="96"
@@ -271,6 +271,15 @@
      id="layer3"
      inkscape:label="bottom"
      style="display:inline">
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.93095;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:12.67;stroke-opacity:1"
+       id="rect131"
+       width="537.02026"
+       height="418.62161"
+       x="-12.99107"
+       y="-13.183233"
+       ry="0"
+       inkscape:label="background" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient1035);fill-opacity:1;stroke:none;stroke-width:1.49914;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.83;stroke-opacity:0.622951;filter:url(#filter1077)"
        d="M 450.79446,251.2173 A 208.48369,163.77834 0 0 1 242.31077,414.99563 208.48369,163.77834 0 0 1 33.827078,251.2173 208.48369,163.77834 0 0 1 242.31077,87.43896 208.48369,163.77834 0 0 1 450.79446,251.2173 Z"

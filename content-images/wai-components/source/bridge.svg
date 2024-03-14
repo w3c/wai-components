@@ -7,7 +7,7 @@
    width="441.76419"
    height="281"
    viewBox="0 0 441.76419 281"
-   sodipodi:docname="bridge.en.svg"
+   sodipodi:docname="bridge.svg"
    inkscape:version="1.3 (0e150ed, 2023-07-21)"
    inkscape:export-filename="bridge.en.png"
    inkscape:export-xdpi="96"
@@ -332,20 +332,14 @@
      style="display:inline;opacity:1"
      transform="translate(1.5189739,8.7130566)">
     <rect
-       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.64208;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:12.67;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.85648;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:12.67;stroke-opacity:1"
        id="rect131"
-       width="422.91235"
-       height="290.00146"
-       x="17.33285"
-       y="-8.7130566"
-       ry="0" />
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:5.82084;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.83;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect1261"
-       width="435.82437"
-       height="268.1145"
-       x="1.3914481"
-       y="1.2584937" />
+       width="457.7963"
+       height="300.37238"
+       x="-8.1229992"
+       y="-19.083958"
+       ry="0"
+       sodipodi:insensitive="true" />
     <path
        style="display:inline;opacity:0.653;vector-effect:none;fill:url(#linearGradient1035);fill-opacity:1;stroke:none;stroke-width:1.49914;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.83;stroke-opacity:0.622951;filter:url(#filter1077)"
        d="M 450.79446,251.2173 A 208.48369,163.77834 0 0 1 242.31077,414.99563 208.48369,163.77834 0 0 1 33.827078,251.2173 208.48369,163.77834 0 0 1 242.31077,87.43896 208.48369,163.77834 0 0 1 450.79446,251.2173 Z"
