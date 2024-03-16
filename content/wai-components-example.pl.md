@@ -2,7 +2,7 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 ---
-title: Opisy ilustracji w artykule Podstawoe komponenty dostępności Internetu
+title: Opisy ilustracji w artykule Podstawowe komponenty dostępności Internetu
 nav_title: Illustration Descriptions
 
 lang: pl   # Change "en" to the translated language shortcode
@@ -46,7 +46,7 @@ Na tej stronie opisano ilustracje w dokumencie “[[Podstawowe komponenty dostę
 
 ![Ilustracje powiązania między komponentami]({{ "/content-images/wai-components/relate-pl.svg" | relative_url }})
 
-Ilustracja przedstawia trzy graficznie oznaczone pola obrazujące treść i ludzi. Pośrodku na górze znajduje się pole oznaczone jako „treść” na którym są baletnica, zdjęcie dziecka, znacznik img, tekst, formularz, widżet pogody i wykres kołowy. Idąc od dołu z lewej strony, linia łączy  „tworców” z „treścią” na górze, przechodząc przez „narzędzia autorskie” i „narzędzia oceniające”. Idąc od dołu z prawej stronie, linia łączy „użytkowników” z „treścią” na górze, przechodząc przez „przeglądarki, odtwarzacze mediów” i „technologie wspomagające”.
+Ilustracja przedstawia trzy graficznie oznaczone pola obrazujące treść i ludzi. Pośrodku na górze znajduje się pole oznaczone jako „treść” na którym są baletnica, zdjęcie dziecka, znacznik img, tekst, formularz, widżet pogody i wykres kołowy. Idąc od dołu z lewej strony, linia łączy  „twórców” z „treścią” na górze, przechodząc przez „narzędzia autorskie” i „narzędzia oceniające”. Idąc od dołu z prawej stronie, linia łączy „użytkowników” z „treścią” na górze, przechodząc przez „przeglądarki, odtwarzacze mediów” i „technologie wspomagające”.
 
 ## Opis ilustracji przedstawiająej cykl implementacji {#cycle}
 
@@ -58,18 +58,18 @@ Od elementu „treść” na górze biegnie strzałka w lewo przez element „na
 
 ![Pokazuje, co się dzieje, gdy jeden komponent jest słaby]({{ "/content-images/wai-components/bridge-pl.svg" | relative_url }})
 
-Ilustracja przedstawia trzy graficznie oznaczone pola obrazujące treść i ludzi. Pośrodku na górze znajduje się pole oznaczone jako „treść” na którym są baletnica, zdjęcie dziecka, znacznik img, tekst, formularz, widżet pogody i wykres kołowy. Idąc od dołu z lewej strony, linia łączy  „tworców” z „treścią” na górze, przechodząc przez „narzędzia autorskie”. Idąc od dołu z prawej stronie, linia łączy „użytkowników” z „treścią” na górze, przechodząc przez wiele „przeglądarek, odtwarzaczy mediów” i „technologii wspomagających”.
+Ilustracja przedstawia trzy graficznie oznaczone pola obrazujące treść i ludzi. Pośrodku na górze znajduje się pole oznaczone jako „treść” na którym są baletnica, zdjęcie dziecka, znacznik img, tekst, formularz, widżet pogody i wykres kołowy. Idąc od dołu z lewej strony, linia łączy  „twórców” z „treścią” na górze, przechodząc przez „narzędzia autorskie”. Idąc od dołu z prawej stronie, linia łączy „użytkowników” z „treścią” na górze, przechodząc przez wiele „przeglądarek, odtwarzaczy mediów” i „technologii wspomagających”.
 
 ## Opis ilustracji Wytyczne dla różnych komponentów {#guide}
 
 ![Ilustracja przedstawia różne wytyczne dla różnych komponentów]({{ "/content-images/wai-components/specs-pl.svg" | relative_url }})
 
-Ilustracja przedstawia trzy graficznie oznaczone pola obrazujące treść i ludzi. Pośrodku na górze znajduje się pole oznaczone jako „treść” na którym są baletnica, zdjęcie dziecka, znacznik img, tekst, formularz, widżet pogody i wykres kołowy. Idąc od dołu z lewej strony, linia łączy  „tworców” z „treścią” na górze, przechodząc przez „narzędzia autorskie” i „narzędzia oceniające”. Idąc od dołu z prawej stronie, linia łączy „użytkowników” z „treścią” na górze, przechodząc przez „przeglądarki, odtwarzacze mediów” i „technologie wspomagające”.
+Ilustracja przedstawia trzy graficznie oznaczone pola obrazujące treść i ludzi. Pośrodku na górze znajduje się pole oznaczone jako „treść” na którym są baletnica, zdjęcie dziecka, znacznik img, tekst, formularz, widżet pogody i wykres kołowy. Idąc od dołu z lewej strony, linia łączy  „twórców” z „treścią” na górze, przechodząc przez „narzędzia autorskie” i „narzędzia oceniające”. Idąc od dołu z prawej stronie, linia łączy „użytkowników” z „treścią” na górze, przechodząc przez „przeglądarki, odtwarzacze mediów” i „technologie wspomagające”.
 
 Poniżej znajdują się „Wytyczne dla dostępności", które obejmują „ATAG” ze strzałką wskazującą na „narzędzia autorskie” i „narzędzia oceniające”, „WCAG” wskazujące na „treść” oraz „UAAG” wskazujące na „przeglądarki, odtwarzacze mediów” i „technologie wspomagające”. Na samym dole „Specyfikacje techniczne (HTML, ARIA, CSS, SVG, SMIL itp.)" tworzą podstawę ze strzałką wskazującą na wytyczne dla dostępności.
 
 {% comment %}
-@@  This is a redundant section. Repeated the relate.png image, but added a different description. (commented by zwiastunsw @@
+@@  This is a redundant section. Repeated the relate.png image, but added a different description. (commented by zwiastunsw) @@
 ## Components and Guidelines Illustration Description {#rel-guide}
 
 ![Illustration showing How Components
