@@ -32,7 +32,7 @@ ref: /fundamentals/components/examples/ # Do not change this
 {% include_cached toc.html type="end" %}
 {:/}
 
-Cette page décrit les illustrations présentées dans le document [[Composantes essentielles de l’accessibilité du Web]](/standards/components/) et les diapositives [Composantes essentielles de l’accessibilité du Web](https://www.w3.org/WAI/intro/components-slides).
+Cette page décrit les illustrations présentées dans le document [[Composantes essentielles de l’accessibilité du Web]](/fundamentals/components/) et les diapositives [Composantes essentielles de l’accessibilité du Web](https://www.w3.org/WAI/intro/components-slides).
 
 ## Description de l’illustration « Comment les composantes s’articulent » {#relate}
 
