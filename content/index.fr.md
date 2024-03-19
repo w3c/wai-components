@@ -5,7 +5,7 @@
 title: Composantes essentielles de l’accessibilité du Web
 nav_title: "Composantes de l'accessibilité du Web" # A short title that is used in the navigation
 lang: fr   # Change "en" to the translated language shortcode
-last_updated: 2019-06-21   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-19   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "@code-elegant"
@@ -34,7 +34,7 @@ footer: >
     Pour plus d’informations, voir <a href="https://www.w3.org/WAI/about/using-wai-material/" lang="en" hreflang="en">Using WAI Materials (en anglais)</a>.
   </p>
   <p><strong>Date&nbsp;: </strong>Mis à jour le 14 mars 2024.</p>
-  <p><strong>Éditrice&nbsp;:</strong> <a href="https://www.w3.org/People/Shawn" lang="en" hreflang="en">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
+  <p><strong>Rédaction&nbsp;:</strong> <a href="https://www.w3.org/People/Shawn" lang="en" hreflang="en">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
 ---
 
 {::nomarkdown}
