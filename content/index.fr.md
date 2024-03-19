@@ -1,28 +1,31 @@
 ---
-# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 
-title: Composantes essentielles de l’accessibilité du Web # Do not translate "title:". Do translate the text after "title:".
+title: Composantes essentielles de l’accessibilité du Web
 nav_title: "Composantes de l'accessibilité du Web" # A short title that is used in the navigation
- 
-lang: fr   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
- 
+lang: fr   # Change "en" to the translated language shortcode
 last_updated: 2019-06-21   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
 translators:
-- name: "@code-elegant"   # Replace @@ with translator name
-# - name: "@@"   # Replace @@ with name, or delete this line if not multiple translators
-# contributors:
-# - name: "@@"   # Replace @@ with contributor name, or delete this line if none
-# - name: "@@"   # Replace @@ with name, or delete this line if not multiple contributors
- 
-ref: /fundamentals/components/   # Do not change this
-layout: default
+- name: "@code-elegant"
+contributors:
+- name: "Rémi Bétin"
+
 github:
   repository: w3c/wai-components
-  path: index.fr.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
-permalink: /fundamentals/components/fr   # Add the language shortcode to the end; for example /fundamentals/components/fr
+  path: content/index.fr.md   # Add the language shortcode to the middle of the filename, for example content/index.fr.md
+
+permalink: /fundamentals/components/fr   # Add the language shortcode to the end; for example /path/to/file/fr
+ref: /fundamentals/components/   # Do not change this
+
 feedbackmail: wai@w3.org
 
-footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
+# In the footer below:
+# Do not change the dates
+# Translate the other words, including "Date:" and "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+footer: >
   <p>
     <strong>Autorisation d’exploitation&nbsp;:</strong>
     Vous pouvez utiliser les images de cette page pour l’éducation à l’accessibilité et sa sensibilisation si vous&nbsp;:<br>
@@ -33,11 +36,6 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
   <p><strong>Date&nbsp;: </strong>Mis à jour le 27 février 2018. <!-- [<a href="@@">Changelog</a>] --> </p>
   <p><strong>Éditrice&nbsp;:</strong> <a href="http://www.w3.org/People/Shawn" lang="en" hreflang="en">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
   <p>Élaboré avec des contributions du groupe de travail «&nbsp;Éducation et Promotion&nbsp;» (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
- 
- 
-# Read Important Translations Guidance at https://www.w3.org/WAI/about/translating/#important
-# Read Translations Notes for this resource at https://github.com/w3c/wai-components/blob/master/README.md
-# end of translation instructions 
 ---
 
 {::nomarkdown}
@@ -72,8 +70,8 @@ Elle fournit les bases pour comprendre les différents standards d’accessibili
 Il est essentiel que des composantes distinctes et multiples du développement web et de l’interaction utilisateur s’articulent convenablement pour que le Web soit accessible aux personnes handicapées. Ces composantes incluent&nbsp;:
  
 -   **du contenu** – l’information contenue dans une page web ou une application web, y compris&nbsp;:
-	-   de l’information primaire telle que du texte, des images et des sons,
-	-   du code ou du balisage qui définit la structure, la présentation… &nbsp;;
+  -   de l’information primaire telle que du texte, des images et des sons,
+  -   du code ou du balisage qui définit la structure, la présentation… &nbsp;;
 -   **des navigateurs web, des lecteurs de média**, et d’autres «&nbsp;agents utilisateurs&nbsp;»&nbsp;;
 -   **une technologie d’assistance**, dans certains cas – lecteurs d’écran, claviers alternatifs, contacteurs, logiciel de numérisation… &nbsp;;
 -   les connaissances, l’expérience et dans certains cas les stratégies d’adaptation **des utilisateurs** pour l’utilisation du Web&nbsp;;
@@ -113,11 +111,11 @@ Quand les fonctionnalités d’accessibilité sont effectivement mises en œuvre
 - Quand **les navigateurs web, les lecteurs de média, les technologies d’assistance, et les autres agents utilisateurs** fournissent une fonctionnalité d’accessibilité, les utilisateurs sont plus susceptibles de l’exiger  et les créateurs sont plus susceptibles de l’implémenter dans leur **contenu**&nbsp;;
 - Quand les créateurs veulent implémenter une fonctionnalité d’accessibilité dans leur **contenu**, ils sont plus susceptibles d’exiger que leur **outil de création** en rende simple la mise en œuvre&nbsp;;
 - Quand **les outils de création** rendent simple la mise en œuvre d’une fonctionnalité, les créateurs sont plus susceptibles de la mettre en œuvre dans leur **contenu**&nbsp;;
-- Quand une fonctionnalité d’accessibilité est mise en œuvre dans  **la plupart des contenus**, les créateurs et les utilisateurs sont plus susceptibles d’exiger que les **agents utilisateurs** la fournissent.
+- Quand une fonctionnalité d’accessibilité est mise en œuvre dans  **la plupart des contenus**, les créateurs et les utilisateurs sont plus susceptibles d’exiger que les **agents utilisateurs** la prennent en charge.
  
 ### Quand une composante est déficiente
  
-Si une fonctionnalité d’accessibilité n’est pas mise en œuvre dans une composante, il y a peu de motivation pour les autres composantes pour l’implémenter s’il n’en résulte pas une expérience utilisateur accessible. Par exemple les créateurs n’implémenteront pas une fonctionnalité d’accessibilité que les outils de création ne fournissent pas et que la plupart des navigateurs et des technologies d’assistance ne mettent pas en œuvre systématiquement.
+Si une fonctionnalité d’accessibilité n’est pas mise en œuvre dans une composante, il y a peu de motivation pour les autres composantes pour l’implémenter s’il n’en résulte pas une expérience utilisateur accessible. Par exemple les créateurs n’implémenteront probablement pas une fonctionnalité d’accessibilité que les outils de création ne fournissent pas et que la plupart des navigateurs et des technologies d’assistance ne mettent pas en œuvre systématiquement.
  
 {% assign example_url = "/fundamentals/components/examples/#weak" | relative_url %}
 ![illustration ce qui arrive quand une composante est déficiente, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/bridge.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
@@ -127,7 +125,7 @@ Si une composante a une faible prise en compte de l'accessibilité, d’autres c
 -   les créateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité des outils de création&nbsp;; par exemple en codant du balisage directement plutôt que grâce à un outil&nbsp;;
 -   les utilisateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité des navigateurs, des lecteurs de média, et de la technologie d’assistance&nbsp;; et le manque d’accessibilité du contenu&nbsp;; par exemple en utilisant différents navigateurs ou technologies d’assistance pour surmonter différents problèmes d'accessibilité.
  
-Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre et le résultat reste décevant en termes d’accessibilité. De plus un support défaillant de l’accessibilité dans une composante ne peut parfois pas être raisonnablement compensé par les autres composantes et le résultat en est l’inaccessibilité, rendant impossible pour certaines personnes handicapées l’utilisation d’un site, d’une page ou d’une fonctionnalité précis.
+Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre et le résultat reste décevant en matière  d’accessibilité. De plus un support défaillant de l’accessibilité dans une composante ne peut parfois pas toujours être raisonnablement compensé par les autres composantes&nbsp;; le résultat étant l’inaccessibilité, rendant impossible pour certaines personnes handicapées l’utilisation d’un site, d’une page ou d’une fonctionnalité en particulier.
  
 ## Règles et autres standards {#guidelines}
  
