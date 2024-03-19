@@ -43,7 +43,7 @@ footer: >
  
 Cette page montre comment l’accessibilité dépend de l’articulation harmonieuse de nombreuses composantes, et comment des améliorations de certaines pourraient améliorer sensiblement l’accessibilité du Web.
  
-Elle fournit les bases pour comprendre les différents standards d’accessibilité produits par l’Initiative pour l’Accessibilité du Web (<span lang="en">Web Accessibility Initiative WAI</span>) du <abbr title="World Wide Web Consortium">W3C</abbr>.
+Elle fournit les bases pour comprendre les différents standards d’accessibilité produits par l’Initiative pour l’accessibilité du Web (<abbr lang="en" title="Web Accessibility Initiative">WAI</abbr>) du <abbr title="World Wide Web Consortium" lang="en">W3C</abbr>.
  
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -127,15 +127,15 @@ Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre e
  
 ## Règles et autres standards {#guidelines}
  
-L’Initiative pour l’Accessibilité du Web (<span lang="en">Web Accessibility Initiative</span> ([WAI](https://www.w3.org/WAI/)) du <span lang="en">World Wide Web Consortium</span> ([W3C {% include_cached different.html %}](https://www.w3.org/)) développe des **standards d’accessibilité du web** pour différentes composantes&nbsp;:
+L’Initiative pour l’accessibilité du Web (<abbr lang="en" title="Web Accessibility Initiative">[WAI](https://www.w3.org/WAI/)</abbr>) du <span lang="en">World Wide Web Consortium</span> ([W3C](https://www.w3.org/)) développe des **standards d’accessibilité du Web** pour différentes composantes&nbsp;:
  
--   [les règles pour l'accessibilité des outils d'édition / <span lang="en">Authoring Tool Accessibility Guidelines</span> (ATAG)](/standards-guidelines/atag/) traite des outils de création&nbsp;;
--   [les règles pour l'accessibilité des contenus Web / <span lang="en">Web Content Accessibility Guidelines</span> (WCAG)](/standards-guidelines/wcag/) traite du contenu web, et est utilisé par les créateurs, outils de création et outils d’évaluation de l’accessibilité&nbsp;;
--   [les règles pour l'accessibilité des agents utilisateurs / <span lang="en">User Agent Accessibility Guidelines</span> (UAAG)](/standards-guidelines/uaag/) traite des navigateurs et lecteurs de média, y compris certains aspects des technologies d’assistance.
+-   [les Règles pour l'accessibilité des outils d'édition (<abbr lang="en" title="Authoring Tool Accessibility Guidelines">ATAG</abbr>)](/standards-guidelines/atag/) traite des outils de création&nbsp;;
+-   [les Règles pour l'accessibilité des contenus Web (<abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr>)](/standards-guidelines/wcag/) traite du contenu web, et est utilisé par les créateurs, outils de création et outils d’évaluation de l’accessibilité&nbsp;;
+-   [les Règles pour l'accessibilité des agents utilisateurs (<abbr lang="en" title="User Agent Accessibility Guidelines ">UAAG</abbr>)](/standards-guidelines/uaag/) traite des navigateurs et lecteurs de média, y compris certains aspects des technologies d’assistance.
  
 Ces règles d’accessibilité reposent sur le socle des spécifications techniques fondamentales du Web, et sont développées en coordination avec toutes les <a href="https://www.w3.org/TR/">spécifications techniques de W3C {% include_cached different.html %}</a> (HTML, CSS, SVG, SMIL, etc.). W3C développe aussi des spécifications techniques qui traitent directement d’accessibilité, dont&nbsp;:
  
-* la suite des spécifications [ARIA, Les applications Internet riches accessibles / <span lang="en">The Accessible Rich Internet Applications</span>](/standards-guidelines/aria/), qui définit une façon de créer des applications web plus accessibles aux personnes handicapées. Elle facilite notamment le développement de contenu dynamique et de contrôles d’interface utilisateur avancés avec Ajax, HTML, JavaScript et les technologies associées.
+* la suite des spécifications [<abbr lang="en" title="Accessible Rich Internet Applications">ARIA</abbr>, les applications Internet riches accessibles](/standards-guidelines/aria/), qui définit une façon de créer des applications web plus accessibles aux personnes handicapées. Elle facilite notamment le développement de contenu dynamique et de contrôles d’interface utilisateur avancés avec Ajax, HTML, JavaScript et les technologies associées.
 
 {% assign longdesc_url = "/fundamentals/components/examples/fr/#guide" | relative_url %}
 {% include image.html src="specs.png" alt="Illustration  montrant les règles pour les différentes composantes" longdesc=longdesc_url %}
