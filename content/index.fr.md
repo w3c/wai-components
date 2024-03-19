@@ -31,11 +31,10 @@ footer: >
     Vous pouvez utiliser les images de cette page pour l’éducation à l’accessibilité et sa sensibilisation si vous&nbsp;:<br>
     1. Incluez l’URI <strong><span class="changed">w3.org/WAI/fundamentals/components/</span> <em>en évidence</em></strong> à proximité de l’image, et <br>
     2. Incluez l’attribution à l’artiste, l’éditeur, et la mention de copyright dans tous les travaux publiés ou diffusés&nbsp;:<br><cite>Image par Michael Duffy, depuis&nbsp;: Essential Components of Web  Accessibility. Éditrice S. L. Henry. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/fundamentals/components/</cite><br>
-    Pour plus d’informations, voir <a href="https://www.w3.org/WAI/about/usingWAImaterial.html" lang="en" hreflang="en">Using WAI Materials (en anglais)</a>.
+    Pour plus d’informations, voir <a href="https://www.w3.org/WAI/about/using-wai-material/" lang="en" hreflang="en">Using WAI Materials (en anglais)</a>.
   </p>
-  <p><strong>Date&nbsp;: </strong>Mis à jour le 27 février 2018. <!-- [<a href="@@">Changelog</a>] --> </p>
-  <p><strong>Éditrice&nbsp;:</strong> <a href="http://www.w3.org/People/Shawn" lang="en" hreflang="en">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
-  <p>Élaboré avec des contributions du groupe de travail «&nbsp;Éducation et Promotion&nbsp;» (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
+  <p><strong>Date&nbsp;: </strong>Mis à jour le 14 mars 2024.</p>
+  <p><strong>Éditrice&nbsp;:</strong> <a href="https://www.w3.org/People/Shawn" lang="en" hreflang="en">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
 ---
 
 {::nomarkdown}
@@ -80,10 +79,10 @@ Il est essentiel que des composantes distinctes et multiples du développement w
 -   **des outils d’évaluation** – outils d’évaluation de l’accessibilité web, validateurs HTML ou CSS…
  
 ## Comment les composantes s’articulent {#relate}
- 
-{% assign example_url = "/fundamentals/components/examples/#relate" | relative_url %}
-![illustration montrant comment les composantes s’articulent, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/relate.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
- 
+
+{% assign longdesc_url = "/fundamentals/components/examples/fr/#relate" | relative_url %}
+{% include image.html src="relate.fr.png" alt="Illustration montrant comment les composantes s’articulent" longdesc=longdesc_url %}
+
 Les **créateurs** web utilisent généralement **des outils de création** et des outils d’évaluation pour créer du **contenu** web.
  
 **Les personnes** ("**utilisateurs**") utilisent des **navigateurs web, des lecteurs de média, des technologies d’assistance,** ou d’autres "**agents utilisateurs**" pour obtenir ou interagir avec le **contenu**.
@@ -104,9 +103,8 @@ Il y a des interdépendances cruciales entre les composantes&nbsp;; c’est-à-d
 ### Le cycle de mise en œuvre
  
 Quand les fonctionnalités d’accessibilité sont effectivement mises en œuvre dans une composante, les autres composantes sont plus susceptibles de les mettre en œuvre elles aussi.
- 
-{% assign example_url = "/fundamentals/components/examples/#cycle" | relative_url %}
-![illustration du cycle de mise en œuvre, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/cycle.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
+
+{% include image.html src="cycle.fr.png" alt="" %}
  
 - Quand **les navigateurs web, les lecteurs de média, les technologies d’assistance, et les autres agents utilisateurs** fournissent une fonctionnalité d’accessibilité, les utilisateurs sont plus susceptibles de l’exiger  et les créateurs sont plus susceptibles de l’implémenter dans leur **contenu**&nbsp;;
 - Quand les créateurs veulent implémenter une fonctionnalité d’accessibilité dans leur **contenu**, ils sont plus susceptibles d’exiger que leur **outil de création** en rende simple la mise en œuvre&nbsp;;
@@ -116,10 +114,10 @@ Quand les fonctionnalités d’accessibilité sont effectivement mises en œuvre
 ### Quand une composante est déficiente
  
 Si une fonctionnalité d’accessibilité n’est pas mise en œuvre dans une composante, il y a peu de motivation pour les autres composantes pour l’implémenter s’il n’en résulte pas une expérience utilisateur accessible. Par exemple les créateurs n’implémenteront probablement pas une fonctionnalité d’accessibilité que les outils de création ne fournissent pas et que la plupart des navigateurs et des technologies d’assistance ne mettent pas en œuvre systématiquement.
- 
-{% assign example_url = "/fundamentals/components/examples/#weak" | relative_url %}
-![illustration ce qui arrive quand une composante est déficiente, description détaillée à {{ example_url }}]({{ "/content-images/wai-components/bridge.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
- 
+
+{% assign longdesc_url = "/fundamentals/components/examples/fr/#weak" | relative_url %}
+{% include image.html src="bridge.png" alt="Illustration de ce qui arrive quand une composante est déficiente" longdesc=longdesc_url %}
+
 Si une composante a une faible prise en compte de l'accessibilité, d’autres composantes peuvent parfois compenser cela au travers de «&nbsp;contournements&nbsp;» qui nécessitent beaucoup plus d’effort et ne sont pas positifs pour l’accessibilité en général. Par exemple&nbsp;:
  
 -   les créateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité des outils de création&nbsp;; par exemple en codant du balisage directement plutôt que grâce à un outil&nbsp;;
@@ -138,9 +136,9 @@ L’Initiative pour l’Accessibilité du Web (<span lang="en">Web Accessibility
 Ces règles d’accessibilité reposent sur le socle des spécifications techniques fondamentales du Web, et sont développées en coordination avec toutes les <a href="https://www.w3.org/TR/">spécifications techniques de W3C {% include_cached different.html %}</a> (HTML, CSS, SVG, SMIL, etc.). W3C développe aussi des spécifications techniques qui traitent directement d’accessibilité, dont&nbsp;:
  
 * la suite des spécifications [ARIA, Les applications Internet riches accessibles / <span lang="en">The Accessible Rich Internet Applications</span>](/standards-guidelines/aria/), qui définit une façon de créer des applications web plus accessibles aux personnes handicapées. Elle facilite notamment le développement de contenu dynamique et de contrôles d’interface utilisateur avancés avec Ajax, HTML, JavaScript et les technologies associées.
- 
-{% assign example_url = "/fundamentals/components/examples/#guide" | relative_url %}
-![illustration montrant les règles pour les différentes composantes, description détaillée disponible à {{ example_url }}]({{ "/content-images/wai-components/specs.fr.png" | relative_url }}){:longdesc="{{example_url}}"}
- 
+
+{% assign longdesc_url = "/fundamentals/components/examples/fr/#guide" | relative_url %}
+{% include image.html src="specs.png" alt="Illustration  montrant les règles pour les différentes composantes" longdesc=longdesc_url %}
+
 Pour plus d’informations, consultez [[Vue d’ensemble des standards d’accessibilité du W3C
 ]](/standards-guidelines/).

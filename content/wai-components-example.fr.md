@@ -40,13 +40,13 @@ Cette page décrit les illustrations présentées dans le document [[Composantes
 
 Illustration comprenant des graphiques étiquetés de cadres, de contenus et de personnes. Centrés en haut, se trouvent un diagramme circulaire, une image, un formulaire et un texte, étiquetés « contenu ». En partant du bas à gauche, une ligne connecte les « développeurs » aux « outils de création » et aux « outils d'évaluation », jusqu'au « contenu » tout en haut. En partant du bas à droite, une ligne connecte les « utilisateurs » aux « navigateurs, lecteurs de média » et aux « technologies d'assistance », jusqu'au « contenu » tout en haut.
 
-## Description de l’illustration « Quand une composante est faible » {#weak}
+## Description de l’illustration « Quand une composante est déficiente » {#weak}
 
 {% include image.html src="bridge.fr.png" alt="" %}
 
 Illustration comprenant des graphiques étiquetés de cadres, de contenus et de personnes. Centrés en haut, se trouvent un diagramme circulaire, une image, un formulaire et un texte, étiquetés « contenu ». En partant du bas à gauche, une ligne connecte les « développeurs » au « contenu » tout en haut, en contournant les « outils de création ». En partant du bas à droite, une ligne connecte les « utilisateurs » au « contenu » tout en haut, en passant par de multiples « navigateurs, lecteurs de média » et « technologies d'assistance ».
 
-## Description de l’illustration « Règles pour différentes composantes » {#guide}
+## Description de l’illustration « Des règles pour les différentes composantes » {#guide}
 
 {% include image.html src="specs.fr.png" alt="" %}
 
