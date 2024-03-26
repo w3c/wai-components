@@ -48,13 +48,13 @@ Ilustracja przedstawia trzy graficznie oznaczone pola obrazujące treść i ludz
 
 ## Opis ilustracji Gdy jeden komponent jest słaby  {#weak}
 
-{% include image.html src="bridge-pl.png" alt="Pokazuje, co się dzieje, gdy jeden komponent jest słaby" %}
+{% include image.html src="bridge.pl.png" alt="Pokazuje, co się dzieje, gdy jeden komponent jest słaby" %}
 
 Ilustracja przedstawia trzy graficznie oznaczone pola obrazujące treść i ludzi. Pośrodku na górze znajduje się pole oznaczone jako „treść” na którym są baletnica, zdjęcie dziecka, znacznik img, tekst, formularz, widżet pogody i wykres kołowy. Idąc od dołu z lewej strony, linia łączy  „twórców” z „treścią” na górze, przechodząc przez „narzędzia autorskie”. Idąc od dołu z prawej stronie, linia łączy „użytkowników” z „treścią” na górze, przechodząc przez wiele „przeglądarek, odtwarzaczy mediów” i „technologii wspomagających”.
 
 ## Opis ilustracji Wytyczne dla różnych komponentów {#guide}
 
-{% include image.html src="specs.png" alt="Ilustracja przedstawia różne wytyczne dla różnych komponentów" %}
+{% include image.html src="specs.pl.png" alt="Ilustracja przedstawia różne wytyczne dla różnych komponentów" %}
 
 Ilustracja przedstawia trzy graficznie oznaczone pola obrazujące treść i ludzi. Pośrodku na górze znajduje się pole oznaczone jako „treść” na którym są baletnica, zdjęcie dziecka, znacznik img, tekst, formularz, widżet pogody i wykres kołowy. Idąc od dołu z lewej strony, linia łączy „twórców” z „treścią” na górze, przechodząc przez „narzędzia autorskie” i „narzędzia oceniające”. Idąc od dołu z prawej stronie, linia łączy „użytkowników” z „treścią” na górze, przechodząc przez „przeglądarki, odtwarzacze mediów” i „technologie wspomagające”.
 
@@ -70,7 +70,7 @@ Poniżej znajdują się „Wytyczne dla dostępności", które obejmują „ATAG
 ![Illustration showing examples of how components
 relate.]({{ "/content-images/wai-components/relate-example.jpg" | relative_url }})
 
-{% include image.html src="relate-example-pl.jpg" alt="Ilustracja pokazuje przykłady powiązań między komponentami" %}
+{% include image.html src="relate-example.pl.jpg" alt="Ilustracja pokazuje przykłady powiązań między komponentami" %}
 
 Illustration with labeled graphics of boxes, content, and people. at the top center "content" and underneath it is a logo and a box with: `<img src="WAI-logo-pl.svg" alt="Web Accessibility Initiative logo">`. coming up from the bottom left, a line connects “developers” through “authoring tools” and “evaluation tools” to “content” at the top. between the “developer” and “authoring tools” is a dialog box titled: Image Tag Accessibility Attributes, a field titled: Alternative Text filled in with: Web Accessibility Initiative logo. coming up from the bottom right, a line connects “users” to “browsers, media players” and “assistive technologies” to “content” at the top. just up from the “user” is a speech bubble saying: Web Accessibility Initiative logo and a yellow box with: Web Accessibility Initiative logo. at the bottom is: `1.1 Provide a text equivalent for every non-text element` 
 
