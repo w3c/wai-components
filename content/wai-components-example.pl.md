@@ -1,28 +1,26 @@
 ---
-# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
-# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 
-title: Opisy ilustracji w artykule Podstawowe komponenty dostępności Internetu
+title: "Opisy ilustracji w artykule Podstawowe komponenty dostępności Internetu"
 nav_title: Opisy ilustracji
-lang: pl   # Change "en" to the translated language shortcode
-parent: /fundamentals/components/ # Do not change this
-last_updated: 2024-03-26   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+lang: pl  # Change "en" to the translated language shortcode
+last_updated: 2024-03-26  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-- name: "Stefan Wajda"   
-
+- name: "Stefan Wajda"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
-
 github:
-    repository: w3c/wai-components
-    content/wai-components-example.pl.md  # Add the language shortcode to the middle of the filename, for example: content/wai-components-example.fr.md
+  repository: w3c/wai-components
+  path: content/wai-components-example.pl.md # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 
-permalink: /fundamentals/components/examples/pl   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
-ref: /fundamentals/components/examples/    # Do not change this
+permalink: /fundamentals/components/examples/pl # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /fundamentals/components/examples/ # Do not change this
 
+parent: /fundamentals/components/ # Do not change this
 ---
 
 {::nomarkdown}
@@ -64,14 +62,10 @@ Poniżej znajdują się „Wytyczne dla dostępności", które obejmują „ATAG
 
 @@ commenting out - image was used in presentation that is not on new site - leaving here in case we want to resurrect it in the future. @@
 
-
 ## Interdependencies Between Components, Example Illustration Description {#example-alt}
 
-![Illustration showing examples of how components
-relate.]({{ "/content-images/wai-components/relate-example.jpg" | relative_url }})
+{% include image.html src="relate-example.jpg" alt="Illustration showing examples of how components relate" %}
 
-{% include image.html src="relate-example.pl.jpg" alt="Ilustracja pokazuje przykłady powiązań między komponentami" %}
-
-Illustration with labeled graphics of boxes, content, and people. at the top center "content" and underneath it is a logo and a box with: `<img src="WAI-logo-pl.svg" alt="Web Accessibility Initiative logo">`. coming up from the bottom left, a line connects “developers” through “authoring tools” and “evaluation tools” to “content” at the top. between the “developer” and “authoring tools” is a dialog box titled: Image Tag Accessibility Attributes, a field titled: Alternative Text filled in with: Web Accessibility Initiative logo. coming up from the bottom right, a line connects “users” to “browsers, media players” and “assistive technologies” to “content” at the top. just up from the “user” is a speech bubble saying: Web Accessibility Initiative logo and a yellow box with: Web Accessibility Initiative logo. at the bottom is: `1.1 Provide a text equivalent for every non-text element` 
+Illustration with labeled graphics of boxes, content, and people. at the top center "content" and underneath it is a logo and a box with: `<img src="WAI-logo.png" alt="Web Accessibility Initiative logo">`. coming up from the bottom left, a line connects “developers” through “authoring tools” and “evaluation tools” to “content” at the top. between the “developer” and “authoring tools” is a dialog box titled: Image Tag Accessibility Attributes, a field titled: Alternative Text filled in with: Web Accessibility Initiative logo. coming up from the bottom right, a line connects “users” to “browsers, media players” and “assistive technologies” to “content” at the top. just up from the “user” is a speech bubble saying: Web Accessibility Initiative logo and a yellow box with: Web Accessibility Initiative logo. at the bottom is: `1.1 Provide a text equivalent for every non-text element` 
 
 {% endcomment %}
