@@ -40,7 +40,7 @@ Na tej stronie opisano ilustracje w dokumencie „[[Podstawowe komponenty dostę
 
 ## Opis ilustracji przedstawiającej powiązania między komponentami {#relate}
 
-{% include image.html src="relate-pl.png" alt="Ilustracje powiązania między komponentami" %}
+{% include image.html src="relate.pl.png" alt="Ilustracje powiązania między komponentami" %}
 
 Ilustracja przedstawia trzy graficznie oznaczone pola obrazujące treść i ludzi. Pośrodku na górze znajduje się pole oznaczone jako „treść” na którym są baletnica, zdjęcie dziecka, znacznik img, tekst, formularz, widżet pogody i wykres kołowy. Idąc od dołu z lewej strony, linia łączy  „twórców” z „treścią” na górze, przechodząc przez „narzędzia autorskie” i „narzędzia oceniające”. Idąc od dołu z prawej stronie, linia łączy „użytkowników” z „treścią” na górze, przechodząc przez „przeglądarki, odtwarzacze mediów” i „technologie wspomagające”.
 
