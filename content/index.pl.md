@@ -95,7 +95,7 @@ Aby Internet był dostępny dla osób z&nbsp;niepełnosprawnościami, konieczne 
 Między tymi komponentami istnieją istotne współzależności; to znaczy że komponenty muszą ze sobą współpracować, aby Internet był dostępny. Na przykład, dla tekstu alternatywnego opisującego obraz:
 
 -   **specyfikacja techniczna** wymaga alternatywy tekstowej (np. HTML definiuje atrybut tekstu alternatywnego (`alt`) w elemencie obrazka (`img`)
--   **wytyczne WAI** - WCAG, ATAG i UAAG, wymienione w dalszej części - określają, jak wdrożyć tekst alternatywny w&nbsp;różnych komponentach, aby zwiększyć dostępność
+-   **wytyczne WAI** - ([WCAG, ATAG i UAAG, wymienione w dalszej części](#guidelines)) - określają, jak wdrożyć tekst alternatywny w&nbsp;różnych komponentach, aby zwiększyć dostępność
 -   **twórcy** zapewniają odpowiednie sformułowania tekstu alternatywnego
 -   **narzędzia autorskie** umożliwiają, ułatwiają i promują zamieszczanie tekstu alternatywnego na stronie internetowej
 -   **narzędzia oceny** służą do sprawdzenia, czy istnieje tekst alternatywny
@@ -125,11 +125,13 @@ Gdy jeden komponent kiepsko obsługuje dostępność, inne komponenty mogą to c
 -   twórcy mogą wykonać więcej pracy, aby zrekompensować brak obsługi dostępności w&nbsp;narzędziach autorskich; na przykład poprzez bezpośrednie kodowanie znaczników zamiast za pomocą narzędzia,
 -   użytkownicy mogą wykonać więcej pracy, aby zrekompensować  brak obsługi dostępności w przeglądarkach, odtwarzaczach mediów lub technologiach wspomagających; na przykład, używając innej przeglądarki lub technologii wspomagającej, aby przezwyciężyć różne problemy z dostępnością.
 
+Jednak w większości przypadków obejścia nie są wdrażane, a efektem jest wciąż ograniczona dostępność. Ponadto, czasami słaba obsługa dostępności w jednym komponencie nie może być rozsądnie przezwyciężona przez inne komponenty, a efektem jest niedostępność uniemożliwiająca niektórym osobom niepełnosprawnym korzystanie z określonej witryny, strony lub funkcji.
+
 ## Wytyczne i inne standardy {#guidelines}
 
-Inicjatywa na Rzecz Dostępności Internetu [WAI](https://www.w3.org/WAI/)) w Konsorcjum <span lang="en">World Wide Web</span> ([W3C](https://www.w3.org/)) opracowuje **standardy dostępności cyfrowej** dla różnych komponentów:
+Inicjatywa na Rzecz Dostępności Internetu ([WAI](https://www.w3.org/WAI/)) w Konsorcjum <span lang="en">World Wide Web</span> ([W3C](https://www.w3.org/)) opracowuje **standardy dostępności cyfrowej** dla różnych komponentów:
 
--   [[Wytyczne dla dostępności narzędzi autorskich (ATAG)]](/standards-guidelines/atag) dotyczące narzędzi do tworzenia treści
+-   [[Wytyczne dla dostępności narzędzi autorskich (ATAG)]](/standards-guidelines/atag/) dotyczące narzędzi do tworzenia treści
 -   [[Wytyczne dla dostępności treści internetowych (WCAG)]](/standards-guidelines/wcag/) dotyczące treści i wykorzystywane przez twórców oraz narzędzia autorskie i oceniające
 -   [Wytyczne dla dostępności programów użytkownika (UAAG)](/standards-guidelines/uaag/) dotyczące przeglądarek i odtwarzaczy mediów oraz niektórych aspektów technologii wspomagających
 
