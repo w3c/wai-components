@@ -1,1 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6192fe57-df90-47d3-92b9-55578c777fce/deploy-status)](https://app.netlify.com/sites/wai-components/deploys)
+> [!IMPORTANT]
+> This repository is an archive.
+>
+> [Essential Components of Web Accessibility](https://www.w3.org/WAI/fundamentals/components/) is now edited in the [wai-website](https://github.com/w3c/wai-website) repository.
