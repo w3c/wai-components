@@ -80,7 +80,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 {% assign longdesc_url = "/fundamentals/components/examples/#relate" | relative_url %}
 {% include image.html src="relate.ko.png" alt="요소 간 관계를 보여주는 삽화" longdesc=longdesc_url %}
 
-웹 **개발자**는 웹 **콘텐츠**를 만들기 위해 **저작 도구**와 평가 도구를 사용합니다.
+웹 **개발자**는 웹 **콘텐츠**를 만들기 위해 대개 **저작 도구**와 평가 도구를 사용합니다.
 
 **사람들**("**사용자**")은 **콘텐츠**에 접근하고 사용하기 위해 웹 **브라우저, 미디어 플레이어, 보조 기술** 과 여러 "**사용자 에이전트**"를 사용합니다.
 
