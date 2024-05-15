@@ -78,7 +78,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 ## 요소 간 관계 {#relate}
 
 {% assign longdesc_url = "/fundamentals/components/examples/#relate" | relative_url %}
-{% include image.html src="relate.png" alt="요소 간 관계를 보여주는 삽화" longdesc=longdesc_url %}
+{% include image.html src="relate.ko.png" alt="요소 간 관계를 보여주는 삽화" longdesc=longdesc_url %}
 
 웹 **개발자**는 웹 **콘텐츠**를 만들기 위해 **저작 도구**와 평가 도구를 사용합니다.
 
@@ -101,7 +101,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 
 접근성 기능이 한 요소에서 효과적으로 실행된다면, 다른 요소들도 해당 기능을 실행할 수 있을 것입니다. 
 
-{% include image.html src="cycle.png" alt="" %}
+{% include image.html src="cycle.ko.png" alt="" %}
 
 - **웹 브라우저, 미디어 플레이어, 보조 기술, 사용자 에이전트**가 접근성 기능을 지원할 때 사용자는 해당 기능을 더 요구할 것이고, 개발자들은 더 쉽게 그들의 **콘텐츠**에  해당 기능을 적용할 수 있을 것입니다.
 - 개발자가 그들의 **콘텐츠**에 접근성 기능을 적용하고 싶을 때 그들의 **사용자 에이전트**에 해당 기능을 더 쉽게 이용할 수 있도록 요구할 수 있습니다. 
@@ -113,7 +113,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 만약 접근성 기능이 한 요소에 잘 실행되지 않는다면 접근 가능한 사용자 경험을 야기하지 않게 되고, 다른 요소들이 접근성을 실행할 이유가 없어집니다. 예를 들어, 개발자는 저작 도구가 지원하지 않고, 대부분의 브라우저와 보조 기술이 계속해서 적용하지 않는 접근성 기능은 사용하지 않으려 할 것입니다. 
 
 {% assign longdesc_url = "/fundamentals/components/examples/#weak" | relative_url %}
-{% include image.html src="bridge.png" alt="한 요소가 약할 경우에 대한 삽화" longdesc=longdesc_url %}
+{% include image.html src="bridge.ko.png" alt="한 요소가 약할 경우에 대한 삽화" longdesc=longdesc_url %}
 
 만약 한 요소가 접근성 지원이 제대로 이루어지지 않는다면, 다른 요소들이 더 많은 노력을 해야 하고 접근성 측면에서 전반적으로 좋지 않은 "차선책"을 통해 보완하고자 할 것입니다. 
 
@@ -136,6 +136,6 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 * [ARIA, 접근 가능한 리치 인터넷 애플리케이션 ](/standards-guidelines/aria/)은 장애가 있는 사용자가 접근하기 쉬운 웹 애플리케이션을 만들기 위한 방법을 정의하고 있습니다. Ajax, HTML, JavaScript와 관련 기술들로 만들어진 동적 콘텐츠나 고차원 사용자 인터페이스 제어에 특히 도움이 될 것입니다.
 
 {% assign longdesc_url = "/fundamentals/components/examples/#guide" | relative_url %}
-{% include image.html src="specs.png" alt="여러 요소에 대한 지침들을 보여주는 삽화" longdesc=longdesc_url %}
+{% include image.html src="specs.ko.png" alt="여러 요소에 대한 지침들을 보여주는 삽화" longdesc=longdesc_url %}
 
 더 많은 정보는 [[W3C 접근성 표준 개요]](/standards-guidelines/)에서 확인하세요.
